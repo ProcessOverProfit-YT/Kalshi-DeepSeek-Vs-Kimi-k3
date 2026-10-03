@@ -1,0 +1,324 @@
+﻿=== Agent #1 log started 2026-10-01-21-01-14.156 ===
+21:01:14 - Application Started | PAPER MODE | BTC 15-minute AI direction strategy | provider: MOONSHOTAI | model: Kimi K3 | Obey model: YES | AI request at 15m remaining | order size: 300 | Agent PnL limits: +1200.0000/-1000.0000
+21:01:14 - PAPER MODE | current-ask simulated fills | no live orders
+21:01:15 - BTC New PAPER session (KXBTC15M-26OCT012315-15, shard 2)
+21:01:15 - BTC Requesting AI analytics with 13.75 minutes remaining
+21:01:15 - BTC Requesting MOONSHOTAI analysis and credit charge
+21:01:23 - BTC MOONSHOTAI Kimi K3 decision | UP | credits charged | remaining credit=3867 | tokens in/out/reasoning=6965/280/99
+21:01:23 - BTC AI reason | Active 15m candle is +0.0227% above open with only 8.3% elapsed. Momentum is broadly bullish: 1M RSI 77.9, up_ratio 0.9, regression R² 0.93-0.94 with positive slope, and 19 of last 20 closed 1M bars green; 15M and 1M both broke prior 20-bar highs with positive MACD histograms. Higher timeframes (1H/6H) are bullish (cross_timeframe all_bullish, weighted score 5). Adjusted spot shows slight 1m/5m pullback and 1M RSI is stretched, but diverse confirmation from trend, levels, and geometry plus current price abo
+21:01:23 - MODEL PREDICTION AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT012315-15 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+21:01:24 - BTC MOONSHOTAI Kimi K3 chose UP | Obey_model=YES | trade side=UP | current ask 0.82 — placing PAPER order
+21:01:24 - BTC PAPER position confirmed | fill 0.82 | size 300 | simulated entry fees 0.0000 (current ask)
+21:01:24 - BTC Holding PAPER UP to market resolution
+21:15:01 - BTC PAPER UP held to resolution | PnL settlement pending
+21:15:01 - BTC Waiting for market data
+21:15:03 - BTC Session ended, waiting for the next market
+21:15:09 - BTC PAPER UP closed | entry 0.82 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +54.0000 | held_to_resolution
+21:15:09 - BTC New PAPER session (KXBTC15M-26OCT012330-30, shard 2)
+21:15:09 - BTC Requesting AI analytics with 14.85 minutes remaining
+21:15:09 - BTC Requesting MOONSHOTAI analysis and credit charge
+21:15:20 - BTC MOONSHOTAI Kimi K3 decision | UP | credits charged | remaining credit=3862 | tokens in/out/reasoning=6997/1128/940
+21:15:20 - BTC AI reason | Active 15M just opened (0.9% elapsed, 892s left) and current 85299.93 is only -0.008% vs open 85306.67, a negligible 6.7pt deficit vs 15M ATR 157pt, so easily reversible. All four timeframes are bullish (weighted score 4.5): 15M RSI 67, MACD hist +48, positive regressions (10-bar slope +0.0997%/bar, R2 0.85); 1H broke prior 20-high with RSI 69 and rising MACD; 6H strongly green. Latest 1M closed bars turned back up into the open. Short-term 1M MACD negative and stretched z-score are outweighed by dominant b
+21:15:20 - MODEL PREDICTION AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT012330-30 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+21:15:21 - BTC MOONSHOTAI Kimi K3 chose UP | Obey_model=YES | trade side=UP | current ask 0.47 — placing PAPER order
+21:15:21 - BTC PAPER position confirmed | fill 0.47 | size 300 | simulated entry fees 0.0000 (current ask)
+21:15:21 - BTC Holding PAPER UP to market resolution
+21:15:21 - MODEL OUTCOME AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT012315-15 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT012315-15-UP-26940843
+21:30:01 - BTC PAPER UP held to resolution | PnL settlement pending
+21:30:01 - BTC Waiting for market data
+21:30:03 - BTC Session ended, waiting for the next market
+21:30:15 - BTC PAPER UP closed | entry 0.47 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -141.0000 | held_to_resolution
+21:30:17 - MODEL OUTCOME AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT012330-30 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT012330-30-UP-27778218
+21:30:36 - BTC New PAPER session (KXBTC15M-26OCT012345-45, shard 2)
+21:30:36 - BTC Requesting AI analytics with 14.40 minutes remaining
+21:30:36 - BTC Requesting MOONSHOTAI analysis and credit charge
+21:31:09 - BTC MOONSHOTAI Kimi K3 decision | DOWN | credits charged | remaining credit=3857 | tokens in/out/reasoning=6983/1643/1525
+21:31:09 - BTC AI reason | Active 15m is only 4% elapsed and just +0.016% above open, far inside 15m ATR/volatility, so the lead is easily reversible. Immediate 1m momentum is mixed-fading: negative MACD histogram, slightly negative 20-bar regression, prior 15m red close, 1H upper-wick rejection near 85439 resistance, and adjusted spot returns disagree bearishly with raw. Higher timeframes are bullish, but not enough to make the tiny early edge likely to persist.
+21:31:09 - MODEL PREDICTION AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT012345-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+21:31:10 - BTC MOONSHOTAI Kimi K3 chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.25 — placing PAPER order
+21:31:10 - BTC PAPER position confirmed | fill 0.25 | size 300 | simulated entry fees 0.0000 (current ask)
+21:31:10 - BTC Holding PAPER DOWN to market resolution
+21:45:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+21:45:01 - BTC Waiting for market data
+21:45:03 - BTC Waiting for prior-session PnL settlement before starting the next session
+21:45:09 - BTC PAPER DOWN closed | entry 0.25 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -75.0000 | held_to_resolution
+21:45:09 - BTC New PAPER session (KXBTC15M-26OCT020000-00, shard 2)
+21:45:09 - BTC Requesting AI analytics with 14.85 minutes remaining
+21:45:09 - BTC Requesting MOONSHOTAI analysis and credit charge
+21:45:23 - BTC MOONSHOTAI Kimi K3 decision | UP | credits charged | remaining credit=3852 | tokens in/out/reasoning=6972/751/601
+21:45:23 - BTC AI reason | Active 15M candle is just above open (85399.71 vs 85397.80, +0.0022%) with ~99% of time left, but evidence is broadly bullish: cross_timeframe all_bullish (4/4, score 5); 15M/1M/1H/6H all trend bullish with EMA8>21>55, positive MACD histograms, positive regression slopes, RSI 60-70; 1H broke prior 20-bar high; raw spot 1/5/15 returns positive and live bar sits at range high. Momentum alignment favors the close staying above the open despite the tiny early body.
+21:45:24 - MODEL PREDICTION AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020000-00 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+21:45:25 - BTC MOONSHOTAI Kimi K3 chose UP | Obey_model=YES | trade side=UP | current ask 0.58 — placing PAPER order
+21:45:25 - BTC PAPER position confirmed | fill 0.58 | size 300 | simulated entry fees 0.0000 (current ask)
+21:45:25 - BTC Holding PAPER UP to market resolution
+21:45:26 - MODEL OUTCOME AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT012345-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT012345-45-DOWN-28727718
+22:00:01 - BTC PAPER UP held to resolution | PnL settlement pending
+22:00:03 - BTC Session ended, waiting for the next market
+22:00:04 - BTC Waiting for market data
+22:00:11 - BTC PAPER UP closed | entry 0.58 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +126.0000 | held_to_resolution
+22:00:12 - MODEL OUTCOME AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020000-00 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT020000-00-UP-29581828
+22:00:14 - BTC New PAPER session (KXBTC15M-26OCT020015-15, shard 2)
+22:00:14 - BTC Requesting AI analytics with 14.77 minutes remaining
+22:00:14 - BTC Requesting MOONSHOTAI analysis and credit charge
+22:00:34 - BTC MOONSHOTAI Kimi K3 decision | DOWN | credits charged | remaining credit=3847 | tokens in/out/reasoning=6984/1089/944
+22:00:34 - BTC AI reason | Target open 85496.95, current 85496.94 (-0.000015%), effectively at/below the open with ~886s left, and the strategy resolves equality at the open as DOWN. Despite all-bullish higher timeframes, immediate 1M pressure is stalling just under 85505 resistance: last closed 1M bar red, 1M/15M RSI ~71/70 overbought, 15M z=1.87 stretched, and adjusted spot return_5 is negative while raw is flat (adjusted-raw divergence), signaling short-term exhaustion/mean-reversion risk rather than fresh upside continuation for
+22:00:34 - MODEL PREDICTION AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020015-15 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+22:00:35 - BTC MOONSHOTAI Kimi K3 chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.41 — placing PAPER order
+22:00:35 - BTC PAPER position confirmed | fill 0.41 | size 300 | simulated entry fees 0.0000 (current ask)
+22:00:35 - BTC Holding PAPER DOWN to market resolution
+22:15:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+22:15:02 - BTC Session ended, waiting for the next market
+22:15:03 - BTC Waiting for market data
+22:15:06 - BTC PAPER DOWN closed | entry 0.41 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +177.0000 | held_to_resolution
+22:15:06 - MODEL OUTCOME AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020015-15 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT020015-15-DOWN-30492359
+22:15:30 - BTC New PAPER session (KXBTC15M-26OCT020030-30, shard 2)
+22:15:31 - BTC Requesting AI analytics with 14.50 minutes remaining
+22:15:31 - BTC Requesting MOONSHOTAI analysis and credit charge
+22:15:56 - BTC MOONSHOTAI Kimi K3 decision | DOWN | credits charged | remaining credit=3844 | tokens in/out/reasoning=6991/1341/1178
+22:15:56 - BTC AI reason | Active 15M candle is only 3.4% elapsed with current just +0.0077% above open (~6.6 pts vs 1M ATR ~19.8), so the cushion is easily reversible. The decisive 1M timeframe is bearish: trend score -5, negative MACD histogram, negative regression slopes, up_ratio 0.3, price below EMA8/21, and 5 of the last 6 closed 1M bars red after rejection from the 85578 high. Price sits directly on 1M support 85449.17 and 1H/6H show upper-wick rejection and stretched z-scores, favoring mean reversion lower despite the bullish
+22:15:56 - MODEL PREDICTION AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020030-30 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+22:15:57 - BTC MOONSHOTAI Kimi K3 chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.31 — placing PAPER order
+22:15:57 - BTC PAPER position confirmed | fill 0.31 | size 300 | simulated entry fees 0.0000 (current ask)
+22:15:57 - BTC Holding PAPER DOWN to market resolution
+22:30:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+22:30:00 - BTC Waiting for market data
+22:30:02 - BTC Session ended, waiting for the next market
+22:30:06 - BTC PAPER DOWN closed | entry 0.31 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -93.0000 | held_to_resolution
+22:30:06 - MODEL OUTCOME AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020030-30 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT020030-30-DOWN-31413734
+22:30:23 - BTC New PAPER session (KXBTC15M-26OCT020045-45, shard 2)
+22:30:23 - BTC Requesting AI analytics with 14.62 minutes remaining
+22:30:23 - BTC Requesting MOONSHOTAI analysis and credit charge
+22:30:36 - BTC MOONSHOTAI Kimi K3 decision | UP | credits charged | remaining credit=3841 | tokens in/out/reasoning=6947/392/234
+22:30:36 - BTC AI reason | Active candle sits +0.0346% above its open at 86759.106 with only 2.4% elapsed; latest bar closed at its high with no rejection wick and broke prior-20-bar resistance on 1M/15M/1H/6H. All four timeframes are bullish with positive MACD histograms, EMA8>EMA21>EMA55, up_ratio 0.9 on 1M, and strong positive regression slopes with high R². Offsetting factors (RSI 90 on 1M, z-score 2.7, adjusted spot series showing slight negative drift) warn of stretch, but momentum agreement and the tiebreaker of price above op
+22:30:36 - MODEL PREDICTION AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020045-45 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+22:30:37 - BTC MOONSHOTAI Kimi K3 chose UP | Obey_model=YES | trade side=UP | current ask 0.60 — placing PAPER order
+22:30:37 - BTC PAPER position confirmed | fill 0.60 | size 300 | simulated entry fees 0.0000 (current ask)
+22:30:37 - BTC Holding PAPER UP to market resolution
+22:45:00 - BTC PAPER UP held to resolution | PnL settlement pending
+22:45:01 - BTC Session ended, waiting for the next market
+22:45:02 - BTC Waiting for market data
+22:45:04 - BTC PAPER UP closed | entry 0.60 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -180.0000 | held_to_resolution
+22:45:05 - MODEL OUTCOME AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020045-45 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT020045-45-UP-32293843
+22:45:19 - BTC New PAPER session (KXBTC15M-26OCT020100-00, shard 2)
+22:45:19 - BTC Requesting AI analytics with 14.68 minutes remaining
+22:45:19 - BTC Requesting MOONSHOTAI analysis and credit charge
+22:45:38 - BTC MOONSHOTAI Kimi K3 decision | UP | credits charged | remaining credit=3836 | tokens in/out/reasoning=6998/1249/1057
+22:45:38 - BTC AI reason | Active 15M just opened (2.2% elapsed, 880s left) essentially flat at -0.0035% vs open, negligible vs 15M ATR 0.275%, so near-tie resolves to regime/momentum. All four timeframes are bullish (alignment all_bullish, weighted 4.5); 15M EMA8>21>55, MACD hist +164, regression_10 +0.222%/bar (r2 0.79), RSI 76. 1H/6H broke prior highs. The 1M pullback to 86368 found support near 86310 and the last 1M bar closed green with positive 10-bar slope, favoring recovery above the open. Overbought z-scores (2-3) and reject
+22:45:39 - MODEL PREDICTION AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020100-00 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+22:45:40 - BTC MOONSHOTAI Kimi K3 chose UP | Obey_model=YES | trade side=UP | current ask 0.40 — placing PAPER order
+22:45:40 - BTC PAPER position confirmed | fill 0.40 | size 300 | simulated entry fees 0.0000 (current ask)
+22:45:40 - BTC Holding PAPER UP to market resolution
+23:00:00 - BTC PAPER UP held to resolution | PnL settlement pending
+23:00:01 - BTC Session ended, waiting for the next market
+23:00:02 - BTC Waiting for market data
+23:00:09 - BTC PAPER UP closed | entry 0.40 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +180.0000 | held_to_resolution
+23:00:10 - MODEL OUTCOME AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020100-00 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT020100-00-UP-33196812
+23:00:34 - BTC New PAPER session (KXBTC15M-26OCT020115-15, shard 2)
+23:00:34 - BTC Requesting AI analytics with 14.43 minutes remaining
+23:00:34 - BTC Requesting MOONSHOTAI analysis and credit charge
+23:01:11 - BTC MOONSHOTAI Kimi K3 decision | DOWN | credits charged | remaining credit=3833 | tokens in/out/reasoning=6963/1394/1150
+23:01:11 - BTC AI reason | Target is only +0.027% above open (86623.75 vs 86600.13) with 96% of the candle (867s) left, an edge smaller than 1M ATR (0.041%) and far below 15M ATR (0.275%), so it is readily reversible. Immediate 1M evidence is negative: MACD histogram -19.46, 10-bar regression slope -0.0083% (R2 0.47), up_ratio 0.5, and a recent pullback from 86682 to 86590 with several red bars. Overhead 1M resistance is just 0.068% above while support is 0.197% below, skewing near-term room downward. Raw/adjusted spot disagree (adju
+23:01:12 - MODEL PREDICTION AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020115-15 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+23:01:13 - BTC MOONSHOTAI Kimi K3 chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.50 — placing PAPER order
+23:01:13 - BTC PAPER position confirmed | fill 0.50 | size 300 | simulated entry fees 0.0000 (current ask)
+23:01:13 - BTC Holding PAPER DOWN to market resolution
+23:15:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+23:15:01 - BTC Session ended, waiting for the next market
+23:15:02 - BTC Waiting for market data
+23:15:05 - BTC PAPER DOWN closed | entry 0.50 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +150.0000 | held_to_resolution
+23:15:05 - MODEL OUTCOME AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020115-15 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT020115-15-DOWN-34130156
+23:15:28 - BTC New PAPER session (KXBTC15M-26OCT020130-30, shard 2)
+23:15:28 - BTC Requesting AI analytics with 14.53 minutes remaining
+23:15:28 - BTC Requesting MOONSHOTAI analysis and credit charge
+23:15:50 - BTC MOONSHOTAI Kimi K3 decision | DOWN | credits charged | remaining credit=3828 | tokens in/out/reasoning=6974/1361/1211
+23:15:50 - BTC AI reason | Active 15M candle is only 3% elapsed (873s remain) and price is essentially at the open (+0.004% vs 15M ATR 0.263%), so the tiny positive body is readily reversible and near-equality at the open resolves DOWN. Immediate 1M pressure is mildly bearish: negative MACD histogram, negative regression-20 slope, close slightly below EMA8/21, and recent closed 1M bars mostly red. Higher timeframes are bullish but stretched/overbought (1H RSI 79, z-scores 1.6-3.1), raising mean-reversion risk over the long remaining
+23:15:50 - MODEL PREDICTION AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020130-30 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+23:15:51 - BTC MOONSHOTAI Kimi K3 chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.45 — placing PAPER order
+23:15:51 - BTC PAPER position confirmed | fill 0.45 | size 300 | simulated entry fees 0.0000 (current ask)
+23:15:51 - BTC Holding PAPER DOWN to market resolution
+23:30:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+23:30:02 - BTC Session ended, waiting for the next market
+23:30:03 - BTC Waiting for market data
+23:30:10 - MODEL OUTCOME AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020130-30 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT020130-30-DOWN-35008062
+23:30:10 - BTC PAPER DOWN closed | entry 0.45 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +165.0000 | held_to_resolution
+23:30:24 - BTC New PAPER session (KXBTC15M-26OCT020145-45, shard 2)
+23:30:24 - BTC Requesting AI analytics with 14.60 minutes remaining
+23:30:24 - BTC Requesting MOONSHOTAI analysis and credit charge
+23:30:37 - BTC MOONSHOTAI Kimi K3 decision | DOWN | credits charged | remaining credit=3823 | tokens in/out/reasoning=6981/915/716
+23:30:37 - BTC AI reason | Active 15M candle is only 2.4% elapsed and essentially flat at its open (+0.0039%), leaving 878s for reversal. Immediate pressure is bearish: 1M trend score -5, RSI 32.4, negative MACD histogram, negative 10/20-bar regression (R2 0.75/0.92), price below EMA8/21, 10/20-bar returns -0.18%/-0.27%, and adjusted spot slope negative with R2 0.96. The prior spike to 86802 is being rejected (1H live bar red near its low; z-scores 1.15/2.16/2.91 stretched), favoring mean reversion. The +0.004% cushion is far below 1
+23:30:37 - MODEL PREDICTION AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020145-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+23:30:37 - BTC MOONSHOTAI Kimi K3 chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.44 — placing PAPER order
+23:30:37 - BTC PAPER position confirmed | fill 0.44 | size 300 | simulated entry fees 0.0000 (current ask)
+23:30:37 - BTC Holding PAPER DOWN to market resolution
+23:45:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+23:45:01 - BTC Waiting for market data
+23:45:03 - BTC Session ended, waiting for the next market
+23:45:04 - BTC PAPER DOWN closed | entry 0.44 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +168.0000 | held_to_resolution
+23:45:06 - MODEL OUTCOME AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020145-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT020145-45-DOWN-35894515
+23:45:14 - BTC New PAPER session (KXBTC15M-26OCT020200-00, shard 2)
+23:45:14 - BTC Requesting AI analytics with 14.77 minutes remaining
+23:45:14 - BTC Requesting MOONSHOTAI analysis and credit charge
+23:45:31 - BTC MOONSHOTAI Kimi K3 decision | DOWN | credits charged | remaining credit=3820 | tokens in/out/reasoning=6966/1067/883
+23:45:31 - BTC AI reason | Active 15M candle is only +0.0056% above open with 888s (~99%) remaining, a negligible cushion versus 15M ATR 0.28% and realized vol 0.37%, so the near-open tiebreaker favors DOWN. Immediate pressure is bearish: 1M RSI 39.96, EMA8<EMA21, regression_20 slope negative with R²0.61, bar_10/bar_20 returns negative; adjusted spot 1m/5m returns negative. Last three closed 15M bars are red and the live 1H candle is a -0.56% red bar near its low after RSI 70, signaling an overbought pullback from 86802. Bullish 6H/1
+23:45:31 - MODEL PREDICTION AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020200-00 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+23:45:32 - BTC MOONSHOTAI Kimi K3 chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.49 — placing PAPER order
+23:45:33 - BTC PAPER position confirmed | fill 0.49 | size 300 | simulated entry fees 0.0000 (current ask)
+23:45:33 - BTC Holding PAPER DOWN to market resolution
+00:00:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+00:00:01 - BTC Session ended, waiting for the next market
+00:00:02 - BTC Waiting for market data
+00:00:06 - MODEL OUTCOME AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020200-00 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT020200-00-DOWN-36789281
+00:00:07 - BTC PAPER DOWN closed | entry 0.49 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +153.0000 | held_to_resolution
+00:00:11 - BTC New PAPER session (KXBTC15M-26OCT020215-15, shard 2)
+00:00:11 - BTC Requesting AI analytics with 14.82 minutes remaining
+00:00:11 - BTC Requesting MOONSHOTAI analysis and credit charge
+00:01:04 - BTC MOONSHOTAI Kimi K3 decision | DOWN | credits charged | remaining credit=3815 | tokens in/out/reasoning=6964/1246/1052
+00:01:04 - BTC AI reason | Active 15M candle is only ~1% elapsed (890s left) and current is just +0.004% above open — negligible buffer vs 15M ATR 0.275%, effectively at open. Immediate pressure is bearish: 1M trend_score -3, RSI 35, negative 10/20-bar regression with solid R² (0.52/0.56), 10-bar return -0.097%, price below EMA8. Recent 15M sequence shows 5 of last 6 closed bars RED with bar_3 -0.38% and bar_5 -0.71% pullback, and 6H is stretched (z=2.29) with 1H RSI 67.8, raising mean-reversion risk. Higher-TF bullishness is outweig
+00:01:04 - MODEL PREDICTION AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020215-15 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+00:01:04 - BTC MOONSHOTAI Kimi K3 chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.45 — placing PAPER order
+00:01:05 - BTC PAPER position confirmed | fill 0.45 | size 300 | simulated entry fees 0.0000 (current ask)
+00:01:05 - BTC Holding PAPER DOWN to market resolution
+00:15:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+00:15:03 - BTC Waiting for market data
+00:15:08 - BTC PAPER DOWN closed | entry 0.45 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +165.0000 | held_to_resolution
+00:15:11 - MODEL OUTCOME AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020215-15 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT020215-15-DOWN-37721609
+00:15:35 - BTC New PAPER session (KXBTC15M-26OCT020230-30, shard 2)
+00:15:35 - BTC Requesting AI analytics with 14.42 minutes remaining
+00:15:35 - BTC Requesting MOONSHOTAI analysis and credit charge
+00:16:08 - BTC MOONSHOTAI Kimi K3 decision | DOWN | credits charged | remaining credit=3812 | tokens in/out/reasoning=6998/943/753
+00:16:09 - BTC AI reason | Active 15M just opened (3.8% elapsed, 866s left) with current 85901.77 below open 85907.33 (-0.0065%). Immediate 1M pressure is decisively bearish: RSI 38.7, bearish EMA ordering (close<EMA8<EMA21<EMA55), negative 1/3/5/10/20-bar returns, regression slopes negative, up_ratio 0.2, z-score -1.29, and price sits only 0.038% above 1M support. 15M recent returns (bar_1/3/5 negative), MACD histogram -18.8 and up_ratio 0.2 agree. Bullish 1H/6H regime constrains but does not override the dominant short-term selling
+00:16:09 - MODEL PREDICTION AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020230-30 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+00:16:09 - BTC MOONSHOTAI Kimi K3 chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.26 — placing PAPER order
+00:16:09 - BTC PAPER position confirmed | fill 0.26 | size 300 | simulated entry fees 0.0000 (current ask)
+00:16:09 - BTC Holding PAPER DOWN to market resolution
+00:30:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+00:30:01 - BTC Waiting for market data
+00:30:02 - BTC Session ended, waiting for the next market
+00:30:08 - BTC PAPER DOWN closed | entry 0.26 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -78.0000 | held_to_resolution
+00:30:11 - MODEL OUTCOME AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020230-30 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT020230-30-DOWN-38626578
+00:30:25 - BTC New PAPER session (KXBTC15M-26OCT020245-45, shard 2)
+00:30:25 - BTC Requesting AI analytics with 14.58 minutes remaining
+00:30:25 - BTC Requesting MOONSHOTAI analysis and credit charge
+00:31:02 - BTC MOONSHOTAI Kimi K3 decision | UP | credits charged | remaining credit=3807 | tokens in/out/reasoning=6987/996/840
+00:31:02 - BTC AI reason | Active candle only 2.6% elapsed with price a negligible -0.008% below open vs 15M ATR 0.26%, so the tiny red body is easily reversible. 1M momentum is mildly bullish: RSI 51.6, positive MACD histogram (7.9), positive regression slopes, positive 5/10/20-bar returns, trend_score 5. 1H and 6H are strongly bullish (trend_score 5, positive MACD/regression, RSI 65-68), giving bullish_majority alignment; the recent 15M decline looks like a pullback within that uptrend. Adjusted spot returns are positive, supportin
+00:31:02 - MODEL PREDICTION AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020245-45 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+00:31:03 - BTC MOONSHOTAI Kimi K3 chose UP | Obey_model=YES | trade side=UP | current ask 0.41 — placing PAPER order
+00:31:03 - BTC PAPER position confirmed | fill 0.41 | size 300 | simulated entry fees 0.0000 (current ask)
+00:31:03 - BTC Holding PAPER UP to market resolution
+00:45:01 - BTC PAPER UP held to resolution | PnL settlement pending
+00:45:01 - BTC Waiting for market data
+00:45:02 - BTC Session ended, waiting for the next market
+00:45:08 - BTC PAPER UP closed | entry 0.41 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -123.0000 | held_to_resolution
+00:45:08 - BTC New PAPER session (KXBTC15M-26OCT020300-00, shard 2)
+00:45:08 - BTC Requesting AI analytics with 14.87 minutes remaining
+00:45:09 - BTC Requesting MOONSHOTAI analysis and credit charge
+00:46:01 - BTC MOONSHOTAI Kimi K3 decision | UP | credits charged | remaining credit=3804 | tokens in/out/reasoning=6997/1389/1229
+00:46:01 - BTC AI reason | Higher-timeframe regime is bullish (1H and 6H trend_score 5, positive MACD histograms, EMA8>EMA21, RSI 64-68; cross_timeframe bullish_majority, weighted 1.75). The 15M weakness looks like a pullback within that uptrend (RSI still 58.8, EMA8>EMA21, bar_20 +1.27%). Spot series show positive drift (return_15 +0.36-0.38%; raw regression_20 slope positive with R^2 0.949). Price is marginally above the open (+0.093%) with 894s left, and the positive open distance breaks the near-balance toward UP.
+00:46:02 - MODEL PREDICTION AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020300-00 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+00:46:03 - BTC MOONSHOTAI Kimi K3 chose UP | Obey_model=YES | trade side=UP | current ask 0.41 — placing PAPER order
+00:46:03 - BTC PAPER position confirmed | fill 0.41 | size 300 | simulated entry fees 0.0000 (current ask)
+00:46:03 - BTC Holding PAPER UP to market resolution
+00:46:03 - MODEL OUTCOME AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020245-45 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT020245-45-UP-39520453
+01:00:02 - BTC PAPER UP held to resolution | PnL settlement pending
+01:00:02 - BTC Waiting for market data
+01:00:03 - BTC Session ended, waiting for the next market
+01:00:08 - BTC PAPER UP closed | entry 0.41 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +177.0000 | held_to_resolution
+01:00:12 - MODEL OUTCOME AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020300-00 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT020300-00-UP-40419718
+01:00:14 - BTC New PAPER session (KXBTC15M-26OCT020315-15, shard 2)
+01:00:14 - BTC Requesting AI analytics with 14.77 minutes remaining
+01:00:15 - BTC Requesting MOONSHOTAI analysis and credit charge
+01:00:26 - BTC MOONSHOTAI Kimi K3 decision | DOWN | credits charged | remaining credit=3799 | tokens in/out/reasoning=7010/727/539
+01:00:26 - BTC AI reason | Active 15M candle is only 1.6% elapsed (886s left) and current 85965.17 is -0.0047% below open 85969.20. Immediate pressure is bearish: 1M trend_score -3, RSI 47.4, MACD histogram -1.28, close below EMA8, and 1/3/5/10/20-bar returns all negative with negative 10-bar slope; raw spot 5/15-bar returns and regression slope are negative. 15M shows MACD histogram -52.9, regression_10 slope -0.083 (r2 0.71), up_ratio_10 0.3. Bullish 1H/6H regime is background only and does not override early bearish pressure; near
+01:00:26 - MODEL PREDICTION AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020315-15 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+01:00:27 - BTC MOONSHOTAI Kimi K3 chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.61 — placing PAPER order
+01:00:27 - BTC PAPER position confirmed | fill 0.61 | size 300 | simulated entry fees 0.0000 (current ask)
+01:00:27 - BTC Holding PAPER DOWN to market resolution
+01:15:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+01:15:01 - BTC Waiting for market data
+01:15:02 - BTC Session ended, waiting for the next market
+01:15:05 - MODEL OUTCOME AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020315-15 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT020315-15-DOWN-41284406
+01:15:06 - BTC PAPER DOWN closed | entry 0.61 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +117.0000 | held_to_resolution
+01:15:29 - BTC New PAPER session (KXBTC15M-26OCT020330-30, shard 2)
+01:15:29 - BTC Requesting AI analytics with 14.52 minutes remaining
+01:15:29 - BTC Requesting MOONSHOTAI analysis and credit charge
+01:15:45 - BTC MOONSHOTAI Kimi K3 decision | DOWN | credits charged | remaining credit=3796 | tokens in/out/reasoning=6990/915/731
+01:15:45 - BTC AI reason | Active 15M candle is below open (85934.38 vs 85945.87, -0.013%) with 97% time left, and immediate pressure is bearish: 1M trend_score -5, RSI 45.4, negative MACD histogram, EMA8<EMA21, 1/3/5/15/20-bar returns all negative, latest 1M bar closed at its low with zero lower wick. Raw spot regression slope is negative with r² 0.978 and raw/adjusted 1/5/15 returns all negative. 15M up_ratio_10 is 0.2 with negative 10-bar slope and recent mostly-RED sequence; current price sits at the live bar low. Higher-timefram
+01:15:45 - MODEL PREDICTION AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020330-30 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+01:15:46 - BTC MOONSHOTAI Kimi K3 chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.61 — placing PAPER order
+01:15:46 - BTC PAPER position confirmed | fill 0.61 | size 300 | simulated entry fees 0.0000 (current ask)
+01:15:46 - BTC Holding PAPER DOWN to market resolution
+01:30:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+01:30:03 - BTC Session ended, waiting for the next market
+01:30:04 - BTC Waiting for market data
+01:30:13 - BTC PAPER DOWN closed | entry 0.61 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +117.0000 | held_to_resolution
+01:30:16 - MODEL OUTCOME AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020330-30 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT020330-30-DOWN-42203062
+01:30:36 - BTC New PAPER session (KXBTC15M-26OCT020345-45, shard 2)
+01:30:37 - BTC Requesting AI analytics with 14.40 minutes remaining
+01:30:37 - BTC Requesting MOONSHOTAI analysis and credit charge
+01:30:53 - BTC MOONSHOTAI Kimi K3 decision | DOWN | credits charged | remaining credit=3791 | tokens in/out/reasoning=7012/1061/911
+01:30:53 - BTC AI reason | Active 15m is below open (-0.0165%) with 96% remaining. Near-term pressure is bearish: 1M RSI 46, up_ratio_10 0.3, negative 1/3/5/20-bar returns, latest 1M closes at its low with zero lower wick; raw spot 1/5/15-min returns all negative and 20-bar regression is negative with R² 0.976. Recent 15M bars are mostly RED with negative MACD histogram and down regression_10. Bullish 1H/6H regime constrains but does not override the live downtrend; below-open tiebreaker favors DOWN.
+01:30:54 - MODEL PREDICTION AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020345-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+01:30:55 - BTC MOONSHOTAI Kimi K3 chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.64 — placing PAPER order
+01:30:55 - BTC PAPER position confirmed | fill 0.64 | size 300 | simulated entry fees 0.0000 (current ask)
+01:30:55 - BTC Holding PAPER DOWN to market resolution
+01:45:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+01:45:03 - BTC Session ended, waiting for the next market
+01:45:05 - BTC Waiting for market data
+01:45:09 - BTC PAPER DOWN closed | entry 0.64 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +108.0000 | held_to_resolution
+01:45:10 - MODEL OUTCOME AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020345-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT020345-45-DOWN-43111859
+01:45:30 - BTC New PAPER session (KXBTC15M-26OCT020400-00, shard 2)
+01:45:30 - BTC Requesting AI analytics with 14.50 minutes remaining
+01:45:30 - BTC Requesting MOONSHOTAI analysis and credit charge
+01:45:44 - BTC MOONSHOTAI Kimi K3 decision | DOWN | credits charged | remaining credit=3786 | tokens in/out/reasoning=7011/722/536
+01:45:44 - BTC AI reason | Active 15M candle is only 3% elapsed (873s left) and barely above open (+0.0041%), so easily reversed. Dominant 1M pressure is bearish: RSI 31.4, trend_score -5, negative regression slope with R² 0.94, negative MACD histogram, close below EMA8/21, negative 5/10/20-bar returns and a recent run of red 1M bars into the live red bar. 15M confirms downside (MACD hist -84.5, negative 3/5/10-bar returns, up_ratio_10 0.3, prior closed 15M bars mostly red). Higher-timeframe bullish regime argues for bounce, but live
+01:45:44 - MODEL PREDICTION AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020400-00 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+01:45:45 - BTC MOONSHOTAI Kimi K3 chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.25 — placing PAPER order
+01:45:45 - BTC PAPER position confirmed | fill 0.25 | size 300 | simulated entry fees 0.0000 (current ask)
+01:45:45 - BTC Holding PAPER DOWN to market resolution
+02:00:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+02:00:02 - BTC PAPER DOWN closed | entry 0.25 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -75.0000 | held_to_resolution
+02:00:03 - BTC Session ended, waiting for the next market
+02:00:04 - BTC Waiting for market data
+02:00:05 - MODEL OUTCOME AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020400-00 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT020400-00-DOWN-44001796
+02:00:13 - BTC New PAPER session (KXBTC15M-26OCT020415-15, shard 2)
+02:00:13 - BTC Requesting AI analytics with 14.78 minutes remaining
+02:00:13 - BTC Requesting MOONSHOTAI analysis and credit charge
+02:00:25 - BTC MOONSHOTAI Kimi K3 decision | UP | credits charged | remaining credit=3783 | tokens in/out/reasoning=6964/578/393
+02:00:25 - BTC AI reason | Price is slightly above open (+0.0104%) with 889s left. 1M momentum is strongly positive: regression slope +0.028%/bar with R² 0.86, MACD histogram +24.5, RSI 68.6, EMA 8>21>55, up_ratio 0.8, and bar_10/20 returns positive. Higher timeframes (1H, 6H) are bullish with positive MACD and consistent upward regression; cross-timeframe alignment is all_bullish (score 4.25). Offsetting: 15M MACD histogram is negative, up_ratio only 0.4, and latest 1M bar was red with a negative bar_3 return. Diverse momentum confi
+02:00:25 - MODEL PREDICTION AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020415-15 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+02:00:26 - BTC MOONSHOTAI Kimi K3 chose UP | Obey_model=YES | trade side=UP | current ask 0.67 — placing PAPER order
+02:00:26 - BTC PAPER position confirmed | fill 0.67 | size 300 | simulated entry fees 0.0000 (current ask)
+02:00:26 - BTC Holding PAPER UP to market resolution
+02:15:01 - BTC PAPER UP held to resolution | PnL settlement pending
+02:15:03 - BTC Session ended, waiting for the next market
+02:15:04 - BTC Waiting for market data
+02:15:08 - BTC PAPER UP closed | entry 0.67 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +99.0000 | held_to_resolution
+02:15:10 - MODEL OUTCOME AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020415-15 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT020415-15-UP-44883078
+02:15:36 - BTC New PAPER session (KXBTC15M-26OCT020430-30, shard 2)
+02:15:36 - BTC Requesting AI analytics with 14.40 minutes remaining
+02:15:36 - BTC Requesting MOONSHOTAI analysis and credit charge
+02:16:05 - BTC MOONSHOTAI Kimi K3 decision | DOWN | credits charged | remaining credit=3778 | tokens in/out/reasoning=7000/2144/2028
+02:16:05 - BTC AI reason | Active 15M is only 3.9% elapsed and price is just 0.0013% above open (~$1.2), negligible versus 1M ATR $24.5 and 15M ATR $199.9 with 865s left. Immediate evidence shows stall/reversion risk: 1M RSI 74.7 near resistance 86309.51, MACD histogram negative, last 3-bar return negative, and adjusted spot returns/regression are negative despite bullish higher timeframes.
+02:16:05 - MODEL PREDICTION AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020430-30 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+02:16:06 - BTC MOONSHOTAI Kimi K3 chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.40 — placing PAPER order
+02:16:06 - BTC PAPER position confirmed | fill 0.40 | size 300 | simulated entry fees 0.0000 (current ask)
+02:16:06 - BTC Holding PAPER DOWN to market resolution
+02:30:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+02:30:01 - BTC Waiting for market data
+02:30:03 - BTC Session ended, waiting for the next market
+02:30:04 - BTC PAPER DOWN closed | entry 0.40 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -120.0000 | held_to_resolution
+02:30:05 - MODEL OUTCOME AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020430-30 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT020430-30-DOWN-45823312
+02:30:24 - BTC New PAPER session (KXBTC15M-26OCT020445-45, shard 2)
+02:30:24 - BTC Requesting AI analytics with 14.60 minutes remaining
+02:30:24 - BTC Requesting MOONSHOTAI analysis and credit charge
+02:30:39 - BTC MOONSHOTAI Kimi K3 decision | DOWN | credits charged | remaining credit=3775 | tokens in/out/reasoning=6979/842/668
+02:30:39 - BTC AI reason | Active 15M candle is only +0.0107% above open with 876s (97%) remaining, a negligible cushion vs 15M ATR 0.236%. Greatest-weight 1M evidence is bearish: sharp rejection from 86564 spike, sequence of red 1M closes back to 86376, MACD histogram -21.4, regression_10 slope -0.0094%/bar (r²0.31), up_ratio_10 0.4, trend_score -1. Adjusted spot return_1 is negative and diverges from raw. Higher-timeframe rally is stretched (1H RSI 71, 6H z 2.59), raising mean-reversion risk. Tiebreaker favors the tiny positive bod
+02:30:39 - MODEL PREDICTION AUDIT | provider=MOONSHOTAI | model=moonshotai/kimi-k3 | asset=BTC | market=KXBTC15M-26OCT020445-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+02:30:40 - BTC MOONSHOTAI Kimi K3 chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.40 — placing PAPER order
+02:30:40 - BTC PAPER position confirmed | fill 0.40 | size 300 | simulated entry fees 0.0000 (current ask)
+02:30:40 - BTC Holding PAPER DOWN to market resolution
+02:45:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+02:45:01 - BTC Waiting for market data
+02:45:03 - BTC Session ended, waiting for the next market
+02:45:04 - BTC PAPER DOWN closed | entry 0.40 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +180.0000 | held_to_resolution
+02:45:04 - Agent daily PnL limit reached | Max_daily_profit=+1200.0000 | agent PnL=+1251.0000 | no active positions | stopping script

@@ -1,0 +1,1373 @@
+﻿=== Agent #2 log started 2026-10-01-21-01-15.734 ===
+21:01:16 - Application Started | PAPER MODE | BTC 15-minute AI direction strategy | provider: DEEPSEEK | model: DeepSeek v4 Pro | Obey model: YES | AI request at 15m remaining | order size: 300 | Agent PnL limits: +1200.0000/-1000.0000
+21:01:16 - PAPER MODE | current-ask simulated fills | no live orders
+21:01:17 - BTC New PAPER session (KXBTC15M-26OCT012315-15, shard 2)
+21:01:17 - BTC Requesting AI analytics with 13.72 minutes remaining
+21:01:17 - BTC Requesting DEEPSEEK analysis and credit charge
+21:02:02 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3865 | tokens in/out/reasoning=7292/2509/2419
+21:02:02 - BTC AI reason | Active 15m is up 0.023% with 1m and 15m momentum bullish; recent 1m bars close at highs, 15m RSI 64.7 and MACD histogram positive, price broke the prior 15m high, and 1M/15M/1H/6H trends are all bullish, supporting continuation above the open.
+21:02:02 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT012315-15 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+21:02:05 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.92 — placing PAPER order
+21:02:05 - BTC PAPER position confirmed | fill 0.92 | size 300 | simulated entry fees 0.0000 (current ask)
+21:02:05 - BTC Holding PAPER UP to market resolution
+21:15:01 - BTC PAPER UP held to resolution | PnL settlement pending
+21:15:02 - BTC Session ended, waiting for the next market
+21:15:03 - BTC Waiting for market data
+21:15:08 - BTC Waiting for prior-session PnL settlement before starting the next session
+21:15:10 - BTC PAPER UP closed | entry 0.92 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +24.3000 | held_to_resolution
+21:15:10 - BTC New PAPER session (KXBTC15M-26OCT012330-30, shard 2)
+21:15:10 - BTC Requesting AI analytics with 14.83 minutes remaining
+21:15:10 - BTC Requesting DEEPSEEK analysis and credit charge
+21:17:02 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3860 | tokens in/out/reasoning=7322/6414/6319
+21:17:02 - BTC AI reason | Active 15m candle is only 0.0087% below its open at 85299.29 vs 85306.67 with 890s remaining. 15m, 1h, and 6h trend measures are bullish (positive MACD, EMA alignment, RSI above 60), and 15m ATR is 0.184%, so this small dip favors recovery above open.
+21:17:03 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT012330-30 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+21:17:04 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.39 — placing PAPER order
+21:17:04 - BTC PAPER position confirmed | fill 0.39 | size 300 | simulated entry fees 0.0000 (current ask)
+21:17:04 - BTC Holding PAPER UP to market resolution
+21:17:04 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT012315-15 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT012315-15-UP-26981968
+21:30:01 - BTC PAPER UP held to resolution | PnL settlement pending
+21:30:01 - BTC Waiting for market data
+21:30:02 - BTC Session ended, waiting for the next market
+21:30:13 - BTC PAPER UP closed | entry 0.39 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -117.0000 | held_to_resolution
+21:30:17 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT012330-30 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT012330-30-UP-27881531
+21:30:35 - BTC New PAPER session (KXBTC15M-26OCT012345-45, shard 2)
+21:30:35 - BTC Requesting AI analytics with 14.42 minutes remaining
+21:30:35 - BTC Requesting DEEPSEEK analysis and credit charge
+21:31:47 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3855 | tokens in/out/reasoning=7298/4346/4250
+21:31:47 - BTC AI reason | Active 15m candle is slightly above open at 85243 vs 85229, with 15m, 1h and 6h timeframes all bullish and positive MACD/EMA alignment. Recent 1m bars recovered from 85178 to 85243 and the current bar closes at its high; 15m RSI 64.6 and positive regression support continuation, favoring a close above open.
+21:31:47 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT012345-45 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+21:31:49 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.85 — placing PAPER order
+21:31:49 - BTC PAPER position confirmed | fill 0.85 | size 300 | simulated entry fees 0.0000 (current ask)
+21:31:49 - BTC Holding PAPER UP to market resolution
+21:45:00 - BTC PAPER UP held to resolution | PnL settlement pending
+21:45:00 - BTC Waiting for market data
+21:45:02 - BTC Session ended, waiting for the next market
+21:45:07 - BTC PAPER UP closed | entry 0.85 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +45.0000 | held_to_resolution
+21:45:08 - BTC New PAPER session (KXBTC15M-26OCT020000-00, shard 2)
+21:45:08 - BTC Requesting AI analytics with 14.87 minutes remaining
+21:45:08 - BTC Requesting DEEPSEEK analysis and credit charge
+21:46:42 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3850 | tokens in/out/reasoning=7299/5225/5145
+21:46:42 - BTC AI reason | Multi-timeframe bullish alignment supports continuation: 15M, 1H, and 6H trend scores are bullish with positive MACD histograms; the 15M 10-bar regression slope is +0.0955% with R-squared 0.843, and the active candle is already above its open and near its high.
+21:46:42 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020000-00 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+21:46:43 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.52 — placing PAPER order
+21:46:43 - BTC PAPER position confirmed | fill 0.52 | size 300 | simulated entry fees 0.0000 (current ask)
+21:46:43 - BTC Holding PAPER UP to market resolution
+21:46:44 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT012345-45 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT012345-45-UP-28765765
+22:00:00 - BTC PAPER UP held to resolution | PnL settlement pending
+22:00:01 - BTC Session ended, waiting for the next market
+22:00:04 - BTC Waiting for market data
+22:00:10 - BTC PAPER UP closed | entry 0.52 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +144.0000 | held_to_resolution
+22:00:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020000-00 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT020000-00-UP-29660609
+22:00:13 - BTC New PAPER session (KXBTC15M-26OCT020015-15, shard 2)
+22:00:13 - BTC Requesting AI analytics with 14.78 minutes remaining
+22:00:14 - BTC Requesting DEEPSEEK analysis and credit charge
+22:02:15 - RETRY 1: Model call failed | errorCode=NSAI-R003
+22:04:17 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+22:04:17 - BTC DEEPSEEK analysis unavailable; skipping this session
+22:04:19 - BTC DEEPSEEK analysis failed, waiting for next session
+22:15:00 - BTC Waiting for market data
+22:15:31 - BTC New PAPER session (KXBTC15M-26OCT020030-30, shard 2)
+22:15:31 - BTC Requesting AI analytics with 14.48 minutes remaining
+22:15:31 - BTC Requesting DEEPSEEK analysis and credit charge
+22:17:32 - RETRY 1: Model call failed | errorCode=NSAI-R003
+22:19:34 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+22:19:34 - BTC DEEPSEEK analysis unavailable; skipping this session
+22:19:36 - BTC DEEPSEEK analysis failed, waiting for next session
+22:30:01 - BTC Waiting for market data
+22:30:24 - BTC New PAPER session (KXBTC15M-26OCT020045-45, shard 2)
+22:30:24 - BTC Requesting AI analytics with 14.60 minutes remaining
+22:30:24 - BTC Requesting DEEPSEEK analysis and credit charge
+22:31:05 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3839 | tokens in/out/reasoning=7323/2344/2278
+22:31:05 - BTC AI reason | The active 15m candle is above its open near its high with no lower wick after breaking the prior 20-bar high. 1m momentum and all higher timeframes are aligned bullish with positive MACD histograms and rising EMAs, supporting continuation above the open.
+22:31:06 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020045-45 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+22:31:06 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.61 — placing PAPER order
+22:31:07 - BTC PAPER position confirmed | fill 0.61 | size 300 | simulated entry fees 0.0000 (current ask)
+22:31:07 - BTC Holding PAPER UP to market resolution
+22:45:01 - BTC PAPER UP held to resolution | PnL settlement pending
+22:45:01 - BTC Waiting for market data
+22:45:02 - BTC Session ended, waiting for the next market
+22:45:04 - BTC PAPER UP closed | entry 0.61 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -183.0000 | held_to_resolution
+22:45:06 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020045-45 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT020045-45-UP-32323437
+22:45:20 - BTC New PAPER session (KXBTC15M-26OCT020100-00, shard 2)
+22:45:20 - BTC Requesting AI analytics with 14.67 minutes remaining
+22:45:20 - BTC Requesting DEEPSEEK analysis and credit charge
+22:47:22 - RETRY 1: Model call failed | errorCode=NSAI-R003
+22:49:24 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+22:49:24 - BTC DEEPSEEK analysis unavailable; skipping this session
+22:49:26 - BTC DEEPSEEK analysis failed, waiting for next session
+23:00:03 - BTC Waiting for market data
+23:00:35 - BTC New PAPER session (KXBTC15M-26OCT020115-15, shard 2)
+23:00:35 - BTC Requesting AI analytics with 14.42 minutes remaining
+23:00:35 - BTC Requesting DEEPSEEK analysis and credit charge
+23:02:35 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3831 | tokens in/out/reasoning=7284/6996/6913
+23:02:35 - BTC AI reason | Active 15m candle is green and at its high, 86625 vs open 86600, +0.029%. 15m/1h/6h analytics show bullish EMA ordering, positive MACD histograms, and strong positive regression slopes; despite mixed 1m momentum, the higher-timeframe uptrend supports a close above the open.
+23:02:35 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020115-15 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+23:02:37 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.51 — placing PAPER order
+23:02:37 - BTC PAPER position confirmed | fill 0.51 | size 300 | simulated entry fees 0.0000 (current ask)
+23:02:37 - BTC Holding PAPER UP to market resolution
+23:15:01 - BTC PAPER UP held to resolution | PnL settlement pending
+23:15:01 - BTC Waiting for market data
+23:15:03 - BTC Session ended, waiting for the next market
+23:15:04 - BTC PAPER UP closed | entry 0.51 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -153.0000 | held_to_resolution
+23:15:06 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020115-15 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT020115-15-UP-34213796
+23:15:30 - BTC New PAPER session (KXBTC15M-26OCT020130-30, shard 2)
+23:15:30 - BTC Requesting AI analytics with 14.50 minutes remaining
+23:15:30 - BTC Requesting DEEPSEEK analysis and credit charge
+23:17:31 - RETRY 1: Model call failed | errorCode=NSAI-R003
+23:19:22 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3826 | tokens in/out/reasoning=7298/6130/6064
+23:19:22 - BTC AI reason | Active 15m is only 0.004% above its open but early; 1m shows higher lows off 86503 support, and 15m/1H/6H trend, MACD, and EMA alignment remain bullish, supporting continuation above the open.
+23:19:22 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020130-30 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+23:19:23 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.28 — placing PAPER order
+23:19:23 - BTC PAPER position confirmed | fill 0.28 | size 300 | simulated entry fees 0.0000 (current ask)
+23:19:23 - BTC Holding PAPER UP to market resolution
+23:30:00 - BTC PAPER UP held to resolution | PnL settlement pending
+23:30:02 - BTC Session ended, waiting for the next market
+23:30:03 - BTC Waiting for market data
+23:30:10 - BTC PAPER UP closed | entry 0.28 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -84.0000 | held_to_resolution
+23:30:12 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020130-30 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT020130-30-UP-35220171
+23:30:20 - BTC New PAPER session (KXBTC15M-26OCT020145-45, shard 2)
+23:30:21 - BTC Requesting AI analytics with 14.67 minutes remaining
+23:30:21 - BTC Requesting DEEPSEEK analysis and credit charge
+23:32:22 - RETRY 1: Model call failed | errorCode=NSAI-R003
+23:34:24 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+23:34:24 - BTC DEEPSEEK analysis unavailable; skipping this session
+23:34:26 - BTC DEEPSEEK analysis failed, waiting for next session
+23:45:00 - BTC Waiting for market data
+23:45:13 - BTC New PAPER session (KXBTC15M-26OCT020200-00, shard 2)
+23:45:13 - BTC Requesting AI analytics with 14.78 minutes remaining
+23:45:13 - BTC Requesting DEEPSEEK analysis and credit charge
+23:46:26 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3818 | tokens in/out/reasoning=7287/3875/3806
+23:46:26 - BTC AI reason | Current 86114.4 is above the 86109.6 open after consecutive 1m up bars from 85908 support, and 15m/1H/6H trend scores are bullish with positive 15m MACD/RSI, supporting continuation rather than reversal.
+23:46:26 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020200-00 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+23:46:27 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.44 — placing PAPER order
+23:46:27 - BTC PAPER position confirmed | fill 0.44 | size 300 | simulated entry fees 0.0000 (current ask)
+23:46:27 - BTC Holding PAPER UP to market resolution
+00:00:01 - BTC PAPER UP held to resolution | PnL settlement pending
+00:00:03 - BTC Session ended, waiting for the next market
+00:00:04 - BTC Waiting for market data
+00:00:05 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020200-00 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT020200-00-UP-36844328
+00:00:07 - BTC PAPER UP closed | entry 0.44 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -132.0000 | held_to_resolution
+00:00:08 - BTC New PAPER session (KXBTC15M-26OCT020215-15, shard 2)
+00:00:09 - BTC Requesting AI analytics with 14.87 minutes remaining
+00:00:09 - BTC Requesting DEEPSEEK analysis and credit charge
+00:02:10 - RETRY 1: Model call failed | errorCode=NSAI-R003
+00:04:12 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+00:04:12 - BTC DEEPSEEK analysis unavailable; skipping this session
+00:04:14 - BTC DEEPSEEK analysis failed, waiting for next session
+00:15:01 - BTC Waiting for market data
+00:15:35 - BTC New PAPER session (KXBTC15M-26OCT020230-30, shard 2)
+00:15:35 - BTC Requesting AI analytics with 14.42 minutes remaining
+00:15:35 - BTC Requesting DEEPSEEK analysis and credit charge
+00:17:36 - RETRY 1: Model call failed | errorCode=NSAI-R003
+00:19:18 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3810 | tokens in/out/reasoning=7319/5537/5432
+00:19:18 - BTC AI reason | Active 15m is below its open at 85901.77 vs 85907.33 after a red first 1m bar. Immediate 1m and 15m pressure lean lower: 1m RSI 38.7, 1m up_ratio 0.2, negative short-term returns, and 15m MACD histogram negative. Despite higher-timeframe bullish context, the near-term pullback favors continuation below the open.
+00:19:19 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020230-30 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+00:19:20 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.33 — placing PAPER order
+00:19:20 - BTC PAPER position confirmed | fill 0.33 | size 300 | simulated entry fees 0.0000 (current ask)
+00:19:20 - BTC Holding PAPER DOWN to market resolution
+00:30:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+00:30:01 - BTC Waiting for market data
+00:30:03 - BTC Session ended, waiting for the next market
+00:30:08 - BTC PAPER DOWN closed | entry 0.33 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -99.0000 | held_to_resolution
+00:30:10 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020230-30 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT020230-30-DOWN-38817296
+00:30:25 - BTC New PAPER session (KXBTC15M-26OCT020245-45, shard 2)
+00:30:25 - BTC Requesting AI analytics with 14.58 minutes remaining
+00:30:26 - BTC Requesting DEEPSEEK analysis and credit charge
+00:32:26 - RETRY 1: Model call failed | errorCode=NSAI-R003
+00:34:29 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+00:34:29 - BTC DEEPSEEK analysis unavailable; skipping this session
+00:34:30 - BTC DEEPSEEK analysis failed, waiting for next session
+00:45:00 - BTC Waiting for market data
+00:45:10 - BTC New PAPER session (KXBTC15M-26OCT020300-00, shard 2)
+00:45:10 - BTC Requesting AI analytics with 14.83 minutes remaining
+00:45:10 - BTC Requesting DEEPSEEK analysis and credit charge
+00:46:20 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3802 | tokens in/out/reasoning=7064/12079/12009
+00:46:20 - BTC AI reason | At 1% elapsed the candle is slightly above its open at 85968.6, and the preceding 1m bar closed at its high after a bounce from 85921 support. 1H/6H EMA/RSI/MACD remain bullish, supporting continuation above the open.
+00:46:20 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020300-00 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+00:46:22 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.44 — placing PAPER order
+00:46:22 - BTC PAPER position confirmed | fill 0.44 | size 300 | simulated entry fees 0.0000 (current ask)
+00:46:22 - BTC Holding PAPER UP to market resolution
+01:00:01 - BTC PAPER UP held to resolution | PnL settlement pending
+01:00:01 - BTC Waiting for market data
+01:00:02 - BTC Session ended, waiting for the next market
+01:00:08 - BTC PAPER UP closed | entry 0.44 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +168.0000 | held_to_resolution
+01:00:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020300-00 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT020300-00-UP-40438781
+01:00:13 - BTC New PAPER session (KXBTC15M-26OCT020315-15, shard 2)
+01:00:13 - BTC Requesting AI analytics with 14.78 minutes remaining
+01:00:13 - BTC Requesting DEEPSEEK analysis and credit charge
+01:02:14 - RETRY 1: Model call failed | errorCode=NSAI-R003
+01:04:16 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+01:04:16 - BTC DEEPSEEK analysis unavailable; skipping this session
+01:04:18 - BTC DEEPSEEK analysis failed, waiting for next session
+01:15:01 - BTC Waiting for market data
+01:15:29 - BTC New PAPER session (KXBTC15M-26OCT020330-30, shard 2)
+01:15:29 - BTC Requesting AI analytics with 14.52 minutes remaining
+01:15:29 - BTC Requesting DEEPSEEK analysis and credit charge
+01:16:22 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3794 | tokens in/out/reasoning=7059/7113/7024
+01:16:22 - BTC AI reason | Immediate 1m and spot-series pressure is negative: active 15m candle is at its low below open, 1m RSI 45.4/negative MACD, and 15m last 10 bars are only 20% up with negative 10-bar regression (R² 0.60), supporting a lower close despite bullish 1H/6H regime.
+01:16:22 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020330-30 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+01:16:23 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.58 — placing PAPER order
+01:16:23 - BTC PAPER position confirmed | fill 0.58 | size 300 | simulated entry fees 0.0000 (current ask)
+01:16:23 - BTC Holding PAPER DOWN to market resolution
+01:30:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+01:30:02 - BTC Session ended, waiting for the next market
+01:30:04 - BTC Waiting for market data
+01:30:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020330-30 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT020330-30-DOWN-42240234
+01:30:13 - BTC PAPER DOWN closed | entry 0.58 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +126.0000 | held_to_resolution
+01:30:36 - BTC New PAPER session (KXBTC15M-26OCT020345-45, shard 2)
+01:30:36 - BTC Requesting AI analytics with 14.40 minutes remaining
+01:30:36 - BTC Requesting DEEPSEEK analysis and credit charge
+01:32:38 - RETRY 1: Model call failed | errorCode=NSAI-R003
+01:33:42 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3789 | tokens in/out/reasoning=7329/3280/3195
+01:33:42 - BTC AI reason | Active 15m candle is below its open at the low with no lower wick and only about 4% elapsed. 1m/spot returns are negative, 1m up_ratio is 0.3, and recent 15m bars are mostly red with negative MACD, so selling pressure is stronger despite bullish 1h/6h background.
+01:33:42 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020345-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+01:33:44 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.69 — placing PAPER order
+01:33:44 - BTC PAPER position confirmed | fill 0.69 | size 300 | simulated entry fees 0.0000 (current ask)
+01:33:44 - BTC Holding PAPER DOWN to market resolution
+01:45:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+01:45:01 - BTC Waiting for market data
+01:45:02 - BTC Session ended, waiting for the next market
+01:45:11 - BTC PAPER DOWN closed | entry 0.69 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +93.0000 | held_to_resolution
+01:45:12 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020345-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT020345-45-DOWN-43281171
+01:45:30 - BTC New PAPER session (KXBTC15M-26OCT020400-00, shard 2)
+01:45:30 - BTC Requesting AI analytics with 14.52 minutes remaining
+01:45:30 - BTC Requesting DEEPSEEK analysis and credit charge
+01:47:31 - RETRY 1: Model call failed | errorCode=NSAI-R003
+01:49:33 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+01:49:33 - BTC DEEPSEEK analysis unavailable; skipping this session
+01:49:35 - BTC DEEPSEEK analysis failed, waiting for next session
+02:00:01 - BTC Waiting for market data
+02:00:15 - BTC New PAPER session (KXBTC15M-26OCT020415-15, shard 2)
+02:00:15 - BTC Requesting AI analytics with 14.75 minutes remaining
+02:00:15 - BTC Requesting DEEPSEEK analysis and credit charge
+02:02:16 - RETRY 1: Model call failed | errorCode=NSAI-R003
+02:03:52 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3781 | tokens in/out/reasoning=7298/5212/5090
+02:03:52 - BTC AI reason | Cross-timeframe alignment is all bullish, and 1M momentum is the strongest near-term signal: 1M regression slope +0.0283%/bar with R2 0.86, RSI 68.8, positive MACD histogram, and 8/21 EMA bullish. 1H/6H trends also support continuation. Active 15M is above its 86045.6 open at 86056.5; nearby 86100 resistance and 15M negative MACD are risks, but UP evidence is stronger.
+02:03:52 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020415-15 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+02:03:53 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.94 — placing PAPER order
+02:03:53 - BTC PAPER position confirmed | fill 0.94 | size 300 | simulated entry fees 0.0000 (current ask)
+02:03:53 - BTC Holding PAPER UP to market resolution
+02:15:00 - BTC PAPER UP held to resolution | PnL settlement pending
+02:15:00 - BTC Waiting for market data
+02:15:02 - BTC Session ended, waiting for the next market
+02:15:09 - BTC PAPER UP closed | entry 0.94 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +18.0000 | held_to_resolution
+02:15:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020415-15 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT020415-15-UP-45090296
+02:15:36 - BTC New PAPER session (KXBTC15M-26OCT020430-30, shard 2)
+02:15:36 - BTC Requesting AI analytics with 14.40 minutes remaining
+02:15:36 - BTC Requesting DEEPSEEK analysis and credit charge
+02:17:37 - RETRY 1: Model call failed | errorCode=NSAI-R003
+02:19:39 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+02:19:39 - BTC DEEPSEEK analysis unavailable; skipping this session
+02:19:41 - BTC DEEPSEEK analysis failed, waiting for next session
+02:30:00 - BTC Waiting for market data
+02:30:26 - BTC New PAPER session (KXBTC15M-26OCT020445-45, shard 2)
+02:30:26 - BTC Requesting AI analytics with 14.57 minutes remaining
+02:30:26 - BTC Requesting DEEPSEEK analysis and credit charge
+02:32:03 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3773 | tokens in/out/reasoning=7300/5183/5090
+02:32:03 - BTC AI reason | The most recent closed 15m candle formed a long upper wick at 86564 and closed near its low, while 1m and 15m MACD histograms are negative and the 1m regression slope is negative. Recent 1m bars show lower highs, indicating rejection/pullback likely to push the active 15m close at or below its open despite bullish higher timeframes.
+02:32:03 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020445-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+02:32:04 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.53 — placing PAPER order
+02:32:04 - BTC PAPER position confirmed | fill 0.53 | size 300 | simulated entry fees 0.0000 (current ask)
+02:32:04 - BTC Holding PAPER DOWN to market resolution
+02:45:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+02:45:01 - BTC Waiting for market data
+02:45:03 - BTC Session ended, waiting for the next market
+02:45:03 - BTC PAPER DOWN closed | entry 0.53 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +141.0000 | held_to_resolution
+02:45:05 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020445-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT020445-45-DOWN-46781015
+02:45:34 - BTC New PAPER session (KXBTC15M-26OCT020500-00, shard 2)
+02:45:34 - BTC Requesting AI analytics with 14.43 minutes remaining
+02:45:34 - BTC Requesting DEEPSEEK analysis and credit charge
+02:47:36 - RETRY 1: Model call failed | errorCode=NSAI-R003
+02:49:38 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+02:49:38 - BTC DEEPSEEK analysis unavailable; skipping this session
+02:49:40 - BTC DEEPSEEK analysis failed, waiting for next session
+03:00:00 - BTC Waiting for market data
+03:00:26 - BTC New PAPER session (KXBTC15M-26OCT020515-15, shard 2)
+03:00:26 - BTC Requesting AI analytics with 14.57 minutes remaining
+03:00:26 - BTC Requesting DEEPSEEK analysis and credit charge
+03:01:21 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3771 | tokens in/out/reasoning=7328/2756/2656
+03:01:21 - BTC AI reason | Active 15m candle is barely above its open at 86219.6 vs 86218.4 and sits at 1m support near 86218.5 after a selloff, with the latest 1m bar closing near its high. Higher-timeframe 15m/1h/6h trend scores are bullish with RSI 60/70/65 and positive EMA alignment, supporting a rebound continuation above open.
+03:01:22 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020515-15 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+03:01:23 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.42 — placing PAPER order
+03:01:23 - BTC PAPER position confirmed | fill 0.42 | size 300 | simulated entry fees 0.0000 (current ask)
+03:01:23 - BTC Holding PAPER UP to market resolution
+03:15:01 - BTC PAPER UP held to resolution | PnL settlement pending
+03:15:01 - BTC Waiting for market data
+03:15:03 - BTC Session ended, waiting for the next market
+03:15:11 - BTC PAPER UP closed | entry 0.42 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -126.0000 | held_to_resolution
+03:15:13 - BTC New PAPER session (KXBTC15M-26OCT020530-30, shard 2)
+03:15:14 - BTC Requesting AI analytics with 14.78 minutes remaining
+03:15:14 - BTC Requesting DEEPSEEK analysis and credit charge
+03:17:16 - RETRY 1: Model call failed | errorCode=NSAI-R003
+03:19:03 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3769 | tokens in/out/reasoning=7326/5805/5705
+03:19:03 - BTC AI reason | Active 15m candle is below its open by 0.004% with 887s remaining; immediate 1m/15m pressure is soft: 15m MACD histogram is negative, up_ratio_10 is 0.3, recent 15m bars are red, and raw spot regression20 has a negative slope. Higher-timeframe bullishness exists but does not override the current sub-open, near-term weakness.
+03:19:03 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020530-30 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+03:19:05 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.59 — placing PAPER order
+03:19:05 - BTC PAPER position confirmed | fill 0.59 | size 300 | simulated entry fees 0.0000 (current ask)
+03:19:05 - BTC Holding PAPER DOWN to market resolution
+03:19:05 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020515-15 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT020515-15-UP-48539796
+03:30:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+03:30:01 - BTC Waiting for market data
+03:30:08 - BTC PAPER DOWN closed | entry 0.59 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +123.0000 | held_to_resolution
+03:30:12 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020530-30 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT020530-30-DOWN-49601750
+03:30:36 - BTC New PAPER session (KXBTC15M-26OCT020545-45, shard 2)
+03:30:36 - BTC Requesting AI analytics with 14.40 minutes remaining
+03:30:36 - BTC Requesting DEEPSEEK analysis and credit charge
+03:32:02 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3767 | tokens in/out/reasoning=7307/4834/4753
+03:32:02 - BTC AI reason | Active 15m candle is +0.035% above open at 86170.05 vs 86139.83 with 865s remaining; recent 1m bars bounced from 86105.85 to 86170.05 and closed at highs, while 1h/6h trend scores are bullish, supporting continuation above open.
+03:32:02 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020545-45 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+03:32:04 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.92 — placing PAPER order
+03:32:04 - BTC PAPER position confirmed | fill 0.92 | size 300 | simulated entry fees 0.0000 (current ask)
+03:32:04 - BTC Holding PAPER UP to market resolution
+03:45:01 - BTC PAPER UP held to resolution | PnL settlement pending
+03:45:01 - BTC Waiting for market data
+03:45:02 - BTC Session ended, waiting for the next market
+03:45:03 - BTC PAPER UP closed | entry 0.92 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +23.4000 | held_to_resolution
+03:45:05 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020545-45 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT020545-45-UP-50381187
+03:45:32 - BTC New PAPER session (KXBTC15M-26OCT020600-00, shard 2)
+03:45:32 - BTC Requesting AI analytics with 14.48 minutes remaining
+03:45:32 - BTC Requesting DEEPSEEK analysis and credit charge
+03:47:33 - RETRY 1: Model call failed | errorCode=NSAI-R003
+03:49:35 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+03:49:35 - BTC DEEPSEEK analysis unavailable; skipping this session
+03:49:37 - BTC DEEPSEEK analysis failed, waiting for next session
+04:00:02 - BTC Waiting for market data
+04:00:31 - BTC New PAPER session (KXBTC15M-26OCT020615-15, shard 2)
+04:00:31 - BTC Requesting AI analytics with 14.48 minutes remaining
+04:00:31 - BTC Requesting DEEPSEEK analysis and credit charge
+04:02:17 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3765 | tokens in/out/reasoning=7334/5423/5330
+04:02:17 - BTC AI reason | Active 15m candle is 0.00396% above open and near its high with no lower wick; 15m, 1H, and 6H trend scores/EMA order are bullish, 1H/6H MACD histograms are positive, and cross_timeframe alignment is bullish_majority. Despite mixed 1m, higher-timeframe confirmation supports continuation above open.
+04:02:17 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020615-15 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+04:02:18 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.59 — placing PAPER order
+04:02:19 - BTC PAPER position confirmed | fill 0.59 | size 300 | simulated entry fees 0.0000 (current ask)
+04:02:19 - BTC Holding PAPER UP to market resolution
+04:15:00 - BTC PAPER UP held to resolution | PnL settlement pending
+04:15:02 - BTC Session ended, waiting for the next market
+04:15:03 - BTC PAPER UP closed | entry 0.59 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -177.0000 | held_to_resolution
+04:15:03 - BTC Waiting for market data
+04:15:05 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020615-15 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT020615-15-UP-52195343
+04:15:29 - BTC New PAPER session (KXBTC15M-26OCT020630-30, shard 2)
+04:15:29 - BTC Requesting AI analytics with 14.52 minutes remaining
+04:15:29 - BTC Requesting DEEPSEEK analysis and credit charge
+04:17:30 - RETRY 1: Model call failed | errorCode=NSAI-R003
+04:19:23 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3763 | tokens in/out/reasoning=7341/6003/5898
+04:19:23 - BTC AI reason | Active 15m is below its open (86325.5 vs 86328.3) and the prior 15m red bar closed at its low. 1m momentum is bearish: negative 1/3/5/10/20-bar returns, RSI 42, negative MACD histogram, and consistent negative 10-bar regression with R2 0.75. Higher-timeframe bullish regime does not override immediate 1m selling pressure.
+04:19:23 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020630-30 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+04:19:24 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.41 — placing PAPER order
+04:19:24 - BTC PAPER position confirmed | fill 0.41 | size 300 | simulated entry fees 0.0000 (current ask)
+04:19:24 - BTC Holding PAPER DOWN to market resolution
+04:30:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+04:30:01 - BTC Waiting for market data
+04:30:02 - BTC Session ended, waiting for the next market
+04:30:08 - BTC PAPER DOWN closed | entry 0.41 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -123.0000 | held_to_resolution
+04:30:09 - BTC New PAPER session (KXBTC15M-26OCT020645-45, shard 2)
+04:30:09 - BTC Requesting AI analytics with 14.85 minutes remaining
+04:30:09 - BTC Requesting DEEPSEEK analysis and credit charge
+04:31:43 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3761 | tokens in/out/reasoning=7319/5187/5086
+04:31:43 - BTC AI reason | Last four 1-minute bars were green and closed at their highs, while 15M/1H/6H timeframes are all bullish with price above EMAs and positive higher-timeframe MACD. The active 15M candle is only 7 seconds old and current is just 0.0008% below open; with 893 seconds remaining and recent 15M ATR 0.199%, continuation above the open is favored.
+04:31:43 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020645-45 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+04:31:44 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.35 — placing PAPER order
+04:31:44 - BTC PAPER position confirmed | fill 0.35 | size 300 | simulated entry fees 0.0000 (current ask)
+04:31:44 - BTC Holding PAPER UP to market resolution
+04:31:44 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020630-30 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT020630-30-DOWN-53221265
+04:45:01 - BTC PAPER UP held to resolution | PnL settlement pending
+04:45:02 - BTC Session ended, waiting for the next market
+04:45:03 - BTC Waiting for market data
+04:45:05 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020645-45 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT020645-45-UP-53961265
+04:45:06 - BTC PAPER UP closed | entry 0.35 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +195.0000 | held_to_resolution
+04:45:13 - BTC New PAPER session (KXBTC15M-26OCT020700-00, shard 2)
+04:45:13 - BTC Requesting AI analytics with 14.78 minutes remaining
+04:45:13 - BTC Requesting DEEPSEEK analysis and credit charge
+04:47:14 - RETRY 1: Model call failed | errorCode=NSAI-R003
+04:49:16 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+04:49:16 - BTC DEEPSEEK analysis unavailable; skipping this session
+04:49:18 - BTC DEEPSEEK analysis failed, waiting for next session
+05:00:01 - BTC Waiting for market data
+05:00:26 - BTC New PAPER session (KXBTC15M-26OCT020715-15, shard 2)
+05:00:26 - BTC Requesting AI analytics with 14.57 minutes remaining
+05:00:26 - BTC Requesting DEEPSEEK analysis and credit charge
+05:02:28 - RETRY 1: Model call failed | errorCode=NSAI-R003
+05:04:30 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+05:04:30 - BTC DEEPSEEK analysis unavailable; skipping this session
+05:04:32 - BTC DEEPSEEK analysis failed, waiting for next session
+05:15:01 - BTC Waiting for market data
+05:15:08 - BTC New PAPER session (KXBTC15M-26OCT020730-30, shard 2)
+05:15:08 - BTC Requesting AI analytics with 14.87 minutes remaining
+05:15:08 - BTC Requesting DEEPSEEK analysis and credit charge
+05:17:09 - RETRY 1: Model call failed | errorCode=NSAI-R003
+05:18:34 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3759 | tokens in/out/reasoning=7302/4400/4299
+05:18:34 - BTC AI reason | The active 15m candle is only slightly above its open at an early elapsed fraction. Higher-timeframe evidence is bullish: 15m, 1h, and 6h trends show positive EMA alignment, positive regression slopes, and mostly positive RSI/MACD. The recent 1m pullback is small and has shown a bounce near 86432, so bullish continuation supports a final close above the 86432.62 open.
+05:18:34 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020730-30 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+05:18:35 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.53 — placing PAPER order
+05:18:35 - BTC PAPER position confirmed | fill 0.53 | size 300 | simulated entry fees 0.0000 (current ask)
+05:18:35 - BTC Holding PAPER UP to market resolution
+05:30:01 - BTC PAPER UP held to resolution | PnL settlement pending
+05:30:01 - BTC Waiting for market data
+05:30:01 - BTC PAPER UP closed | entry 0.53 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -159.0000 | held_to_resolution
+05:30:02 - BTC Session ended, waiting for the next market
+05:30:05 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020730-30 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT020730-30-UP-56772156
+05:30:08 - BTC New PAPER session (KXBTC15M-26OCT020745-45, shard 2)
+05:30:08 - BTC Requesting AI analytics with 14.87 minutes remaining
+05:30:08 - BTC Requesting DEEPSEEK analysis and credit charge
+05:32:09 - RETRY 1: Model call failed | errorCode=NSAI-R003
+05:34:11 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+05:34:11 - BTC DEEPSEEK analysis unavailable; skipping this session
+05:34:13 - BTC DEEPSEEK analysis failed, waiting for next session
+05:45:01 - BTC Waiting for market data
+05:45:24 - BTC New PAPER session (KXBTC15M-26OCT020800-00, shard 2)
+05:45:25 - BTC Requesting AI analytics with 14.60 minutes remaining
+05:45:25 - BTC Requesting DEEPSEEK analysis and credit charge
+05:47:26 - RETRY 1: Model call failed | errorCode=NSAI-R003
+05:49:28 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+05:49:28 - BTC DEEPSEEK analysis unavailable; skipping this session
+05:49:30 - BTC DEEPSEEK analysis failed, waiting for next session
+06:00:02 - BTC Waiting for market data
+06:00:12 - BTC New PAPER session (KXBTC15M-26OCT020815-15, shard 2)
+06:00:12 - BTC Requesting AI analytics with 14.82 minutes remaining
+06:00:12 - BTC Requesting DEEPSEEK analysis and credit charge
+06:02:13 - RETRY 1: Model call failed | errorCode=NSAI-R003
+06:04:15 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+06:04:15 - BTC DEEPSEEK analysis unavailable; skipping this session
+06:04:16 - BTC DEEPSEEK analysis failed, waiting for next session
+06:15:02 - BTC Waiting for market data
+06:15:28 - BTC New PAPER session (KXBTC15M-26OCT020830-30, shard 2)
+06:15:28 - BTC Requesting AI analytics with 14.53 minutes remaining
+06:15:28 - BTC Requesting DEEPSEEK analysis and credit charge
+06:17:29 - RETRY 1: Model call failed | errorCode=NSAI-R003
+06:19:31 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+06:19:31 - BTC DEEPSEEK analysis unavailable; skipping this session
+06:19:33 - BTC DEEPSEEK analysis failed, waiting for next session
+06:30:00 - BTC Waiting for market data
+06:30:08 - BTC New PAPER session (KXBTC15M-26OCT020845-45, shard 2)
+06:30:08 - BTC Requesting AI analytics with 14.87 minutes remaining
+06:30:08 - BTC Requesting DEEPSEEK analysis and credit charge
+06:30:53 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3757 | tokens in/out/reasoning=7297/2454/2364
+06:30:53 - BTC AI reason | Active 15m candle is +0.029% above its open at the high with no upper wick; 1m, 15m, 1h, and 6h timeframes are bullish, and 15m broke the prior 20-period high. Recent 1m bars close near highs and higher-timeframe MACD supports continuation above 86613.4 open.
+06:30:53 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020845-45 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+06:30:54 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.81 — placing PAPER order
+06:30:54 - BTC PAPER position confirmed | fill 0.81 | size 300 | simulated entry fees 0.0000 (current ask)
+06:30:54 - BTC Holding PAPER UP to market resolution
+06:45:00 - BTC PAPER UP held to resolution | PnL settlement pending
+06:45:02 - BTC Session ended, waiting for the next market
+06:45:02 - BTC PAPER UP closed | entry 0.81 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -243.0000 | held_to_resolution
+06:45:04 - BTC Waiting for market data
+06:45:06 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020845-45 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT020845-45-UP-61110609
+06:45:23 - BTC New PAPER session (KXBTC15M-26OCT020900-00, shard 2)
+06:45:24 - BTC Requesting AI analytics with 14.62 minutes remaining
+06:45:24 - BTC Requesting DEEPSEEK analysis and credit charge
+06:46:57 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3755 | tokens in/out/reasoning=7321/5125/5022
+06:46:57 - BTC AI reason | Immediate 1-minute pressure is bearish: 10-bar regression slope is negative with strong R^2, RSI is 39.5, MACD is negative, and the prior 15-minute bar rejected 87037 with a long upper wick. The active 15-minute candle is only 2.7% elapsed with a tiny gain relative to 15-minute ATR, so the slight current pop is likely to reverse below the open.
+06:46:57 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020900-00 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+06:46:58 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.24 — placing PAPER order
+06:46:58 - BTC PAPER position confirmed | fill 0.24 | size 300 | simulated entry fees 0.0000 (current ask)
+06:46:58 - BTC Holding PAPER DOWN to market resolution
+07:00:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+07:00:02 - BTC Session ended, waiting for the next market
+07:00:04 - BTC Waiting for market data
+07:00:06 - BTC PAPER DOWN closed | entry 0.24 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -72.0000 | held_to_resolution
+07:00:06 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020900-00 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT020900-00-DOWN-62074984
+07:00:18 - BTC New PAPER session (KXBTC15M-26OCT020915-15, shard 2)
+07:00:18 - BTC Requesting AI analytics with 14.70 minutes remaining
+07:00:18 - BTC Requesting DEEPSEEK analysis and credit charge
+07:02:04 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3753 | tokens in/out/reasoning=7297/5634/5551
+07:02:04 - BTC AI reason | Active 15m candle is already below its open (86809.43 vs 86821.94), with 1-minute and spot short returns negative and recent 1m bars fading from the 86866 high. Higher-timeframe RSI and upper wicks suggest an overbought pullback, supporting a final close at or below the active open.
+07:02:04 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020915-15 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+07:02:05 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.36 — placing PAPER order
+07:02:05 - BTC PAPER position confirmed | fill 0.36 | size 300 | simulated entry fees 0.0000 (current ask)
+07:02:05 - BTC Holding PAPER DOWN to market resolution
+07:15:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+07:15:01 - BTC Waiting for market data
+07:15:03 - BTC Waiting for prior-session PnL settlement before starting the next session
+07:15:03 - BTC PAPER DOWN closed | entry 0.36 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +192.0000 | held_to_resolution
+07:15:04 - BTC New PAPER session (KXBTC15M-26OCT020930-30, shard 2)
+07:15:04 - BTC Requesting AI analytics with 14.93 minutes remaining
+07:15:04 - BTC Requesting DEEPSEEK analysis and credit charge
+07:17:05 - RETRY 1: Model call failed | errorCode=NSAI-R003
+07:19:07 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+07:19:07 - BTC DEEPSEEK analysis unavailable; skipping this session
+07:19:08 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT020915-15 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT020915-15-DOWN-62982031
+07:19:10 - BTC DEEPSEEK analysis failed, waiting for next session
+07:30:01 - BTC Waiting for market data
+07:30:25 - BTC New PAPER session (KXBTC15M-26OCT020945-45, shard 2)
+07:30:25 - BTC Requesting AI analytics with 14.58 minutes remaining
+07:30:25 - BTC Requesting DEEPSEEK analysis and credit charge
+07:32:26 - RETRY 1: Model call failed | errorCode=NSAI-R003
+07:34:28 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+07:34:29 - BTC DEEPSEEK analysis unavailable; skipping this session
+07:34:30 - BTC DEEPSEEK analysis failed, waiting for next session
+07:45:01 - BTC Waiting for market data
+07:45:09 - BTC New PAPER session (KXBTC15M-26OCT021000-00, shard 2)
+07:45:09 - BTC Requesting AI analytics with 14.85 minutes remaining
+07:45:09 - BTC Requesting DEEPSEEK analysis and credit charge
+07:47:01 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3751 | tokens in/out/reasoning=7308/6099/6014
+07:47:01 - BTC AI reason | Active 15m candle is slightly above its open (+0.0088%) with ~892s remaining. The 15m, 1H, and 6H timeframes are bullish (positive MACD, upward regression slopes, EMA alignment), and the latest 1m bar is green after a pullback from 87099, supporting continuation above the open.
+07:47:02 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021000-00 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+07:47:03 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.59 — placing PAPER order
+07:47:03 - BTC PAPER position confirmed | fill 0.59 | size 300 | simulated entry fees 0.0000 (current ask)
+07:47:03 - BTC Holding PAPER UP to market resolution
+08:00:00 - BTC PAPER UP held to resolution | PnL settlement pending
+08:00:02 - BTC Waiting for prior-session PnL settlement before starting the next session
+08:00:10 - BTC PAPER UP closed | entry 0.59 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -177.0000 | held_to_resolution
+08:00:10 - BTC New PAPER session (KXBTC15M-26OCT021015-15, shard 2)
+08:00:10 - BTC Requesting AI analytics with 14.83 minutes remaining
+08:00:10 - BTC Requesting DEEPSEEK analysis and credit charge
+08:02:12 - RETRY 1: Model call failed | errorCode=NSAI-R003
+08:04:14 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+08:04:14 - BTC DEEPSEEK analysis unavailable; skipping this session
+08:04:14 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021000-00 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT021000-00-UP-65679875
+08:04:16 - BTC DEEPSEEK analysis failed, waiting for next session
+08:15:02 - BTC Waiting for market data
+08:15:11 - BTC New PAPER session (KXBTC15M-26OCT021030-30, shard 2)
+08:15:12 - BTC Requesting AI analytics with 14.82 minutes remaining
+08:15:12 - BTC Requesting DEEPSEEK analysis and credit charge
+08:17:13 - RETRY 1: Model call failed | errorCode=NSAI-R003
+08:19:15 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+08:19:15 - BTC DEEPSEEK analysis unavailable; skipping this session
+08:19:17 - BTC DEEPSEEK analysis failed, waiting for next session
+08:30:01 - BTC Waiting for market data
+08:30:07 - BTC New PAPER session (KXBTC15M-26OCT021045-45, shard 2)
+08:30:08 - BTC Requesting AI analytics with 14.88 minutes remaining
+08:30:08 - BTC Requesting DEEPSEEK analysis and credit charge
+08:31:14 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3749 | tokens in/out/reasoning=7316/3481/3391
+08:31:14 - BTC AI reason | Active 15m candle is below its open at 86126.33 vs 86137.90 and sitting at its low with no lower wick; 1M momentum is down with negative returns across 1/5/15 bars, RSI 27.9, MACD negative, and regression slope negative with high R2, indicating persistent selling pressure despite oversold bounce risk.
+08:31:14 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021045-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+08:31:15 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.52 — placing PAPER order
+08:31:15 - BTC PAPER position confirmed | fill 0.52 | size 300 | simulated entry fees 0.0000 (current ask)
+08:31:15 - BTC Holding PAPER DOWN to market resolution
+08:45:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+08:45:02 - BTC Session ended, waiting for the next market
+08:45:04 - BTC Waiting for market data
+08:45:11 - BTC PAPER DOWN closed | entry 0.52 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +144.0000 | held_to_resolution
+08:45:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021045-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT021045-45-DOWN-68332500
+08:45:36 - BTC New PAPER session (KXBTC15M-26OCT021100-00, shard 2)
+08:45:36 - BTC Requesting AI analytics with 14.40 minutes remaining
+08:45:36 - BTC Requesting DEEPSEEK analysis and credit charge
+08:47:38 - RETRY 1: Model call failed | errorCode=NSAI-R003
+08:49:40 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+08:49:40 - BTC DEEPSEEK analysis unavailable; skipping this session
+08:49:42 - BTC DEEPSEEK analysis failed, waiting for next session
+09:00:04 - BTC Waiting for market data
+09:00:31 - BTC New PAPER session (KXBTC15M-26OCT021115-15, shard 2)
+09:00:31 - BTC Requesting AI analytics with 14.48 minutes remaining
+09:00:31 - BTC Requesting DEEPSEEK analysis and credit charge
+09:02:32 - RETRY 1: Model call failed | errorCode=NSAI-R003
+09:04:34 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+09:04:34 - BTC DEEPSEEK analysis unavailable; skipping this session
+09:04:36 - BTC DEEPSEEK analysis failed, waiting for next session
+09:15:01 - BTC Waiting for market data
+09:15:13 - BTC New PAPER session (KXBTC15M-26OCT021130-30, shard 2)
+09:15:13 - BTC Requesting AI analytics with 14.78 minutes remaining
+09:15:13 - BTC Requesting DEEPSEEK analysis and credit charge
+09:17:12 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3747 | tokens in/out/reasoning=7306/6404/6296
+09:17:12 - BTC AI reason | Target is 0.0128% above its open with nearly all of the 15-minute candle remaining. Immediate 1-minute momentum is positive (10-bar slope +0.025%/bar with R^2 0.80, positive MACD, up_ratio 0.6), and price is bouncing from 15-minute support/oversold Bollinger z -1.99 with 1-hour/6-hour context supporting the rebound. Favors continuation above the open.
+09:17:12 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021130-30 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+09:17:14 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.29 — placing PAPER order
+09:17:14 - BTC PAPER position confirmed | fill 0.29 | size 300 | simulated entry fees 0.0000 (current ask)
+09:17:14 - BTC Holding PAPER UP to market resolution
+09:30:00 - BTC PAPER UP held to resolution | PnL settlement pending
+09:30:01 - BTC Waiting for market data
+09:30:02 - BTC Session ended, waiting for the next market
+09:30:04 - BTC PAPER UP closed | entry 0.29 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -87.0000 | held_to_resolution
+09:30:05 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021130-30 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT021130-30-UP-71090859
+09:30:30 - BTC New PAPER session (KXBTC15M-26OCT021145-45, shard 2)
+09:30:30 - BTC Requesting AI analytics with 14.50 minutes remaining
+09:30:30 - BTC Requesting DEEPSEEK analysis and credit charge
+09:32:31 - RETRY 1: Model call failed | errorCode=NSAI-R003
+09:33:42 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3745 | tokens in/out/reasoning=7329/3744/3629
+09:33:42 - BTC AI reason | 15M evidence is strongly bearish: regression_10 slope -0.1958%/bar with R2 0.935, RSI 31.86, MACD histogram -156.76, up_ratio_10 0.2, and cross_timeframe bearish_majority. Active 15M candle is only +0.000925% after 3.4% elapsed, leaving ample time for the downtrend to push the close at or below the 85456.254 open.
+09:33:42 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021145-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+09:33:43 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.49 — placing PAPER order
+09:33:43 - BTC PAPER position confirmed | fill 0.49 | size 300 | simulated entry fees 0.0000 (current ask)
+09:33:43 - BTC Holding PAPER DOWN to market resolution
+09:45:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+09:45:01 - BTC Waiting for market data
+09:45:02 - BTC Session ended, waiting for the next market
+09:45:11 - BTC PAPER DOWN closed | entry 0.49 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +153.0000 | held_to_resolution
+09:45:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021145-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT021145-45-DOWN-72079984
+09:45:30 - BTC New PAPER session (KXBTC15M-26OCT021200-00, shard 2)
+09:45:31 - BTC Requesting AI analytics with 14.50 minutes remaining
+09:45:31 - BTC Requesting DEEPSEEK analysis and credit charge
+09:47:32 - RETRY 1: Model call failed | errorCode=NSAI-R003
+09:49:24 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3743 | tokens in/out/reasoning=7314/5795/5699
+09:49:24 - BTC AI reason | Active 15m is only +0.007% above open after 29s, tiny vs 0.31% ATR. 1m/15m momentum remains bearish: negative slopes, RSI 30-37, negative MACD, live 1H near lows, and cross-timeframe alignment is bearish majority. No confirmed support breakout, so final close is more likely at/below open.
+09:49:24 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021200-00 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+09:49:25 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.42 — placing PAPER order
+09:49:25 - BTC PAPER position confirmed | fill 0.42 | size 300 | simulated entry fees 0.0000 (current ask)
+09:49:25 - BTC Holding PAPER DOWN to market resolution
+10:00:02 - BTC PAPER DOWN held to resolution | PnL settlement pending
+10:00:02 - BTC Waiting for market data
+10:00:03 - BTC Session ended, waiting for the next market
+10:00:04 - BTC PAPER DOWN closed | entry 0.42 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +174.0000 | held_to_resolution
+10:00:06 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021200-00 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT021200-00-DOWN-73022609
+10:00:20 - BTC New PAPER session (KXBTC15M-26OCT021215-15, shard 2)
+10:00:20 - BTC Requesting AI analytics with 14.67 minutes remaining
+10:00:20 - BTC Requesting DEEPSEEK analysis and credit charge
+10:01:57 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3741 | tokens in/out/reasoning=7290/5002/4898
+10:01:57 - BTC AI reason | Current 85298.65 is only 0.0277% above open with 98% of candle remaining. 1M regression slope is -0.0114%/bar and 15M regression slope is -0.177%/bar with R2 0.935; 15M and 1H MACD are negative and cross-timeframe alignment is bearish_majority, so the early bounce is likely to fade below the open.
+10:01:57 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021215-15 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+10:01:59 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.18 — placing PAPER order
+10:01:59 - BTC PAPER position confirmed | fill 0.18 | size 300 | simulated entry fees 0.0000 (current ask)
+10:01:59 - BTC Holding PAPER DOWN to market resolution
+10:15:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+10:15:01 - BTC Session ended, waiting for the next market
+10:15:02 - BTC Waiting for market data
+10:15:07 - BTC PAPER DOWN closed | entry 0.18 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +246.0000 | held_to_resolution
+10:15:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021215-15 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT021215-15-DOWN-73775781
+10:15:18 - BTC New PAPER session (KXBTC15M-26OCT021230-30, shard 2)
+10:15:18 - BTC Requesting AI analytics with 14.70 minutes remaining
+10:15:18 - BTC Requesting DEEPSEEK analysis and credit charge
+10:17:19 - RETRY 1: Model call failed | errorCode=NSAI-R003
+10:19:21 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+10:19:21 - BTC DEEPSEEK analysis unavailable; skipping this session
+10:19:23 - BTC DEEPSEEK analysis failed, waiting for next session
+10:30:01 - BTC Waiting for market data
+10:30:19 - BTC New PAPER session (KXBTC15M-26OCT021245-45, shard 2)
+10:30:19 - BTC Requesting AI analytics with 14.68 minutes remaining
+10:30:19 - BTC Requesting DEEPSEEK analysis and credit charge
+10:31:33 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3739 | tokens in/out/reasoning=7330/3944/3848
+10:31:33 - BTC AI reason | The active 15m candle is essentially at its open after a persistent decline: 15m returns/regression are strongly negative with high R-squared, last ten 15m bars are all red, RSI is 27.75, and 1m/1h pressure is bearish. Current +0.000047% is negligible versus 15m ATR/volatility, so continued downside is favored.
+10:31:34 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021245-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+10:31:35 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.50 — placing PAPER order
+10:31:35 - BTC PAPER position confirmed | fill 0.50 | size 300 | simulated entry fees 0.0000 (current ask)
+10:31:35 - BTC Holding PAPER DOWN to market resolution
+10:45:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+10:45:02 - BTC Session ended, waiting for the next market
+10:45:03 - BTC Waiting for market data
+10:45:05 - BTC PAPER DOWN closed | entry 0.50 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +150.0000 | held_to_resolution
+10:45:06 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021245-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT021245-45-DOWN-75552125
+10:45:28 - BTC New PAPER session (KXBTC15M-26OCT021300-00, shard 2)
+10:45:28 - BTC Requesting AI analytics with 14.53 minutes remaining
+10:45:28 - BTC Requesting DEEPSEEK analysis and credit charge
+10:47:29 - RETRY 1: Model call failed | errorCode=NSAI-R003
+10:49:31 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+10:49:31 - BTC DEEPSEEK analysis unavailable; skipping this session
+10:49:33 - BTC DEEPSEEK analysis failed, waiting for next session
+11:00:05 - BTC Waiting for market data
+11:00:20 - BTC New PAPER session (KXBTC15M-26OCT021315-15, shard 2)
+11:00:20 - BTC Requesting AI analytics with 14.67 minutes remaining
+11:00:20 - BTC Requesting DEEPSEEK analysis and credit charge
+11:00:59 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3737 | tokens in/out/reasoning=7317/1966/1887
+11:00:59 - BTC AI reason | 15M timeframe is strongly bearish: 12 consecutive red closes, RSI 27, negative MACD, negative regression, up_ratio 0.1. Active candle is only +0.007% above open very early with weak lower-timeframe bounce, and cross-timeframe majority is bearish, favoring rejection back below open.
+11:00:59 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021315-15 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+11:01:00 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.39 — placing PAPER order
+11:01:00 - BTC PAPER position confirmed | fill 0.39 | size 300 | simulated entry fees 0.0000 (current ask)
+11:01:00 - BTC Holding PAPER DOWN to market resolution
+11:15:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+11:15:01 - BTC Session ended, waiting for the next market
+11:15:02 - BTC PAPER DOWN closed | entry 0.39 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +183.0000 | held_to_resolution
+11:15:02 - BTC Waiting for market data
+11:15:06 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021315-15 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT021315-15-DOWN-77316968
+11:15:18 - BTC New PAPER session (KXBTC15M-26OCT021330-30, shard 2)
+11:15:18 - BTC Requesting AI analytics with 14.70 minutes remaining
+11:15:18 - BTC Requesting DEEPSEEK analysis and credit charge
+11:16:32 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3735 | tokens in/out/reasoning=7320/3770/3702
+11:16:32 - BTC AI reason | Active 15m opened below prior support and immediately traded to its low; 1m/15m/1h trends are bearish with negative regression slopes, negative MACD histograms, and overwhelmingly red recent bars. Lower-timeframe momentum and the support break favor continuation below open.
+11:16:32 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021330-30 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+11:16:33 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.76 — placing PAPER order
+11:16:33 - BTC PAPER position confirmed | fill 0.76 | size 300 | simulated entry fees 0.0000 (current ask)
+11:16:33 - BTC Holding PAPER DOWN to market resolution
+11:30:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+11:30:01 - BTC Waiting for market data
+11:30:02 - BTC Session ended, waiting for the next market
+11:30:03 - BTC PAPER DOWN closed | entry 0.76 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +72.0000 | held_to_resolution
+11:30:06 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021330-30 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT021330-30-DOWN-78250203
+11:30:13 - BTC New PAPER session (KXBTC15M-26OCT021345-45, shard 2)
+11:30:14 - BTC Requesting AI analytics with 14.78 minutes remaining
+11:30:14 - BTC Requesting DEEPSEEK analysis and credit charge
+11:32:15 - RETRY 1: Model call failed | errorCode=NSAI-R003
+11:33:23 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3733 | tokens in/out/reasoning=7335/3421/3328
+11:33:23 - BTC AI reason | Target 15m candle is below its open (84620.66 vs 84633.60, -0.015%) with bearish lower-timeframe evidence: 15m RSI 19.8, trend score -5, up_ratio_10=0, negative MACD histogram, and price broke the prior 20-bar low; cross-timeframe alignment is bearish_majority.
+11:33:23 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021345-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+11:33:24 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.33 — placing PAPER order
+11:33:24 - BTC PAPER position confirmed | fill 0.33 | size 300 | simulated entry fees 0.0000 (current ask)
+11:33:24 - BTC Holding PAPER DOWN to market resolution
+11:45:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+11:45:03 - BTC Session ended, waiting for the next market
+11:45:04 - BTC Waiting for market data
+11:45:13 - BTC PAPER DOWN closed | entry 0.33 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +201.0000 | held_to_resolution
+11:45:17 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021345-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT021345-45-DOWN-79261468
+11:45:20 - BTC New PAPER session (KXBTC15M-26OCT021400-00, shard 2)
+11:45:20 - BTC Requesting AI analytics with 14.67 minutes remaining
+11:45:20 - BTC Requesting DEEPSEEK analysis and credit charge
+11:46:56 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3731 | tokens in/out/reasoning=7332/4744/4653
+11:46:56 - BTC AI reason | 15M and 1H analytics are bearish (negative regression slopes, bearish MACD histograms, cross-timeframe bearish alignment), while the active candle is only about 0.008% above its open and the lower-timeframe bounce is weak with raw/adjusted spot disagreement. Remaining time and volatility make this tiny edge insufficient, so the expected close is at/below the open.
+11:46:56 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021400-00 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+11:46:57 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.51 — placing PAPER order
+11:46:57 - BTC PAPER position confirmed | fill 0.51 | size 300 | simulated entry fees 0.0000 (current ask)
+11:46:57 - BTC Holding PAPER DOWN to market resolution
+12:00:02 - BTC PAPER DOWN held to resolution | PnL settlement pending
+12:00:04 - BTC Session ended, waiting for the next market
+12:00:05 - BTC PAPER DOWN closed | entry 0.51 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -153.0000 | held_to_resolution
+12:00:05 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021400-00 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT021400-00-DOWN-80074203
+12:00:05 - BTC Waiting for market data
+12:00:09 - BTC New PAPER session (KXBTC15M-26OCT021415-15, shard 2)
+12:00:09 - BTC Requesting AI analytics with 14.85 minutes remaining
+12:00:10 - BTC Requesting DEEPSEEK analysis and credit charge
+12:02:11 - RETRY 1: Model call failed | errorCode=NSAI-R003
+12:04:10 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3729 | tokens in/out/reasoning=7338/6366/6282
+12:04:10 - BTC AI reason | 1M momentum is bullish (RSI 58.6, positive MACD histogram, EMA8 above EMA21, positive 5/10/20 returns) and the prior 15M bar closed green near its high after testing support; current is only 0.0009% below the active open with 891 seconds remaining, so upside continuation is favored.
+12:04:10 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021415-15 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+12:04:11 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.59 — placing PAPER order
+12:04:11 - BTC PAPER position confirmed | fill 0.59 | size 300 | simulated entry fees 0.0000 (current ask)
+12:04:11 - BTC Holding PAPER UP to market resolution
+12:15:02 - BTC PAPER UP held to resolution | PnL settlement pending
+12:15:02 - BTC Waiting for market data
+12:15:03 - BTC Session ended, waiting for the next market
+12:15:06 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021415-15 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT021415-15-UP-81108218
+12:15:07 - BTC PAPER UP closed | entry 0.59 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +123.0000 | held_to_resolution
+12:15:14 - BTC New PAPER session (KXBTC15M-26OCT021430-30, shard 2)
+12:15:14 - BTC Requesting AI analytics with 14.77 minutes remaining
+12:15:14 - BTC Requesting DEEPSEEK analysis and credit charge
+12:17:16 - RETRY 1: Model call failed | errorCode=NSAI-R003
+12:19:18 - ERROR: BTC DEEPSEEK request failed or timed out. | skipping this session
+12:19:18 - BTC DEEPSEEK analysis unavailable; skipping this session
+12:19:19 - BTC DEEPSEEK analysis failed, waiting for next session
+12:30:00 - BTC Waiting for market data
+12:30:25 - BTC New PAPER session (KXBTC15M-26OCT021445-45, shard 2)
+12:30:26 - BTC Requesting AI analytics with 14.58 minutes remaining
+12:30:26 - BTC Requesting DEEPSEEK analysis and credit charge
+12:32:27 - RETRY 1: Model call failed | errorCode=NSAI-R003
+12:34:01 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3727 | tokens in/out/reasoning=7343/5029/4935
+12:34:02 - BTC AI reason | 15m and 1h timeframes are bearish: negative 15m MACD histogram (-56.7), EMA8<EMA21, 20-bar slope -0.112%/bar, and 1h close near its range low. Recent 15m bars are mostly red; the tiny +0.0087% live bounce lacks confirmed momentum, favoring a close at/below the active open.
+12:34:02 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021445-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+12:34:03 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.76 — placing PAPER order
+12:34:03 - BTC PAPER position confirmed | fill 0.76 | size 300 | simulated entry fees 0.0000 (current ask)
+12:34:03 - BTC Holding PAPER DOWN to market resolution
+12:45:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+12:45:01 - BTC Waiting for market data
+12:45:03 - BTC Session ended, waiting for the next market
+12:45:08 - BTC PAPER DOWN closed | entry 0.76 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +72.0000 | held_to_resolution
+12:45:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021445-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT021445-45-DOWN-82899718
+12:45:18 - BTC New PAPER session (KXBTC15M-26OCT021500-00, shard 2)
+12:45:19 - BTC Requesting AI analytics with 14.70 minutes remaining
+12:45:19 - BTC Requesting DEEPSEEK analysis and credit charge
+12:47:19 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3725 | tokens in/out/reasoning=7340/6455/6344
+12:47:19 - BTC AI reason | Active 15m is only +0.037% above open after a weak bounce from 83950 support; 1m, 15m, and 1h momentum remain bearish with negative MACD histograms, negative regression slopes, and bearish EMA order. 1h broke its prior 20 low and trades near the low, while 15m RSI is oversold with no confirmed bullish reversal. Bearish continuation is stronger, so final close likely at or below open.
+12:47:20 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021500-00 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+12:47:20 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.45 — placing PAPER order
+12:47:20 - BTC PAPER position confirmed | fill 0.45 | size 300 | simulated entry fees 0.0000 (current ask)
+12:47:21 - BTC Holding PAPER DOWN to market resolution
+13:00:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+13:00:03 - BTC Session ended, waiting for the next market
+13:00:04 - BTC Waiting for market data
+13:00:06 - BTC PAPER DOWN closed | entry 0.45 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -135.0000 | held_to_resolution
+13:00:08 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021500-00 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT021500-00-DOWN-83697328
+13:00:24 - BTC New PAPER session (KXBTC15M-26OCT021515-15, shard 2)
+13:00:24 - BTC Requesting AI analytics with 14.60 minutes remaining
+13:00:24 - BTC Requesting DEEPSEEK analysis and credit charge
+13:01:38 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3723 | tokens in/out/reasoning=7102/9109/9016
+13:01:38 - BTC AI reason | 15m/1h regimes are bearish (15m RSI 28.8, MACD histogram -76.7, price below EMAs; 1h trend_score -5), while the active candle is already below its open near its tiny range low. The 1m bounce is stalling near 84264 resistance, so higher-timeframe pressure favors a close at or below 84250.
+13:01:38 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021515-15 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+13:01:39 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.41 — placing PAPER order
+13:01:39 - BTC PAPER position confirmed | fill 0.41 | size 300 | simulated entry fees 0.0000 (current ask)
+13:01:39 - BTC Holding PAPER DOWN to market resolution
+13:15:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+13:15:03 - BTC Session ended, waiting for the next market
+13:15:04 - BTC PAPER DOWN closed | entry 0.41 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +177.0000 | held_to_resolution
+13:15:04 - BTC Waiting for market data
+13:15:05 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021515-15 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT021515-15-DOWN-84556093
+13:15:25 - BTC New PAPER session (KXBTC15M-26OCT021530-30, shard 2)
+13:15:25 - BTC Requesting AI analytics with 14.58 minutes remaining
+13:15:25 - BTC Requesting DEEPSEEK analysis and credit charge
+13:15:51 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3721 | tokens in/out/reasoning=7085/3673/3563
+13:15:51 - BTC AI reason | Active 15m candle is only 24s in with a minimal +0.003% buffer, while 15m and 1h trends are strongly bearish: 15m 10-bar slope -0.112%/bar R² 0.67, 1h -0.353%/bar R² 0.87, negative MACD histograms and bearish EMA alignment. Cross-timeframe alignment is bearish 3-0, favoring a close below the open.
+13:15:52 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021530-30 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+13:15:53 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.60 — placing PAPER order
+13:15:53 - BTC PAPER position confirmed | fill 0.60 | size 300 | simulated entry fees 0.0000 (current ask)
+13:15:53 - BTC Holding PAPER DOWN to market resolution
+13:30:03 - BTC PAPER DOWN held to resolution | PnL settlement pending
+13:30:04 - BTC Session ended, waiting for the next market
+13:30:05 - BTC Waiting for market data
+13:30:08 - BTC PAPER DOWN closed | entry 0.60 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -180.0000 | held_to_resolution
+13:30:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021530-30 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT021530-30-DOWN-85409781
+13:30:21 - BTC New PAPER session (KXBTC15M-26OCT021545-45, shard 2)
+13:30:21 - BTC Requesting AI analytics with 14.65 minutes remaining
+13:30:21 - BTC Requesting DEEPSEEK analysis and credit charge
+13:31:21 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3719 | tokens in/out/reasoning=7091/7548/7463
+13:31:21 - BTC AI reason | Active 15m candle is red just below open after rejection at 84152.76 resistance; 15m and 1h regimes are bearish with price below EMAs, negative MACD histograms, and high-R2 negative regression, while the latest 1m bar has no upside wick and sits near its low, favoring a close at or below open.
+13:31:22 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021545-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+13:31:25 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.40 — placing PAPER order
+13:31:26 - BTC PAPER position confirmed | fill 0.40 | size 300 | simulated entry fees 0.0000 (current ask)
+13:31:26 - BTC Holding PAPER DOWN to market resolution
+13:45:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+13:45:01 - BTC Waiting for market data
+13:45:11 - BTC PAPER DOWN closed | entry 0.40 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -120.0000 | held_to_resolution
+13:45:12 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021545-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT021545-45-DOWN-86342218
+13:45:31 - BTC New PAPER session (KXBTC15M-26OCT021600-00, shard 2)
+13:45:32 - BTC Requesting AI analytics with 14.48 minutes remaining
+13:45:32 - BTC Requesting DEEPSEEK analysis and credit charge
+13:46:33 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3717 | tokens in/out/reasoning=7096/8573/8482
+13:46:33 - BTC AI reason | Active candle is already +0.026% above open with 867s left; 1m MACD is positive and the live 1m bar sits at its high, while 15m RSI is oversold at 29 and the last two 15m bars are green, indicating a support bounce likely to hold the close above the open despite bearish 15m/1H trend.
+13:46:33 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021600-00 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+13:46:35 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.58 — placing PAPER order
+13:46:35 - BTC PAPER position confirmed | fill 0.58 | size 300 | simulated entry fees 0.0000 (current ask)
+13:46:35 - BTC Holding PAPER UP to market resolution
+14:00:01 - BTC PAPER UP held to resolution | PnL settlement pending
+14:00:01 - BTC Waiting for market data
+14:00:03 - BTC Session ended, waiting for the next market
+14:00:04 - BTC PAPER UP closed | entry 0.58 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +126.0000 | held_to_resolution
+14:00:06 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021600-00 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT021600-00-UP-87251562
+14:00:19 - BTC New PAPER session (KXBTC15M-26OCT021615-15, shard 2)
+14:00:19 - BTC Requesting AI analytics with 14.68 minutes remaining
+14:00:19 - BTC Requesting DEEPSEEK analysis and credit charge
+14:01:15 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3715 | tokens in/out/reasoning=7075/6154/6065
+14:01:15 - BTC AI reason | Active candle is above its open and 1-minute momentum is positive: rising EMA8/21, positive MACD and RSI 68, positive 1/3/5/10/20-bar returns, plus a fresh full-body green bar breaking prior 1m resistance. This supports continuation above the open over the remaining 881s despite bearish 15m/1h context.
+14:01:15 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021615-15 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+14:01:16 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.69 — placing PAPER order
+14:01:16 - BTC PAPER position confirmed | fill 0.69 | size 300 | simulated entry fees 0.0000 (current ask)
+14:01:16 - BTC Holding PAPER UP to market resolution
+14:15:01 - BTC PAPER UP held to resolution | PnL settlement pending
+14:15:01 - BTC Waiting for market data
+14:15:03 - BTC Session ended, waiting for the next market
+14:15:11 - BTC PAPER UP closed | entry 0.69 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +93.0000 | held_to_resolution
+14:15:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021615-15 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT021615-15-UP-88133171
+14:15:14 - BTC New PAPER session (KXBTC15M-26OCT021630-30, shard 2)
+14:15:14 - BTC Requesting AI analytics with 14.77 minutes remaining
+14:15:14 - BTC Requesting DEEPSEEK analysis and credit charge
+14:15:57 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3713 | tokens in/out/reasoning=7114/6382/6282
+14:15:57 - BTC AI reason | Active 15m candle is already slightly below its open with 887s remaining. Shorter-term pressure is bearish: 1m regression10 is negative, last 1m bars turned red after a rejection near 84422 resistance, 15m RSI 35 and 1H RSI 38 with negative 1H MACD histogram and strong negative 1H regression. Current below open makes a close above open less likely.
+14:15:57 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021630-30 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+14:15:58 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.49 — placing PAPER order
+14:15:58 - BTC PAPER position confirmed | fill 0.49 | size 300 | simulated entry fees 0.0000 (current ask)
+14:15:58 - BTC Holding PAPER DOWN to market resolution
+14:30:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+14:30:01 - BTC Waiting for market data
+14:30:03 - BTC Session ended, waiting for the next market
+14:30:11 - BTC PAPER DOWN closed | entry 0.49 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +153.0000 | held_to_resolution
+14:30:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021630-30 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT021630-30-DOWN-89014468
+14:30:30 - BTC New PAPER session (KXBTC15M-26OCT021645-45, shard 2)
+14:30:30 - BTC Requesting AI analytics with 14.50 minutes remaining
+14:30:30 - BTC Requesting DEEPSEEK analysis and credit charge
+14:30:52 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3711 | tokens in/out/reasoning=7115/3456/3364
+14:30:52 - BTC AI reason | Current 84335.25 is below the active 15m open 84340.55, with last 1m bars red, prior 15m bar rejecting 84513 and closing near lows, 1H bearish (RSI 38, negative MACD, strong negative regression R² .91), and 15m 20-bar drift consistently negative, favoring close at or below open.
+14:30:53 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021645-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+14:30:54 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.51 — placing PAPER order
+14:30:54 - BTC PAPER position confirmed | fill 0.51 | size 300 | simulated entry fees 0.0000 (current ask)
+14:30:54 - BTC Holding PAPER DOWN to market resolution
+14:45:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+14:45:02 - BTC Waiting for market data
+14:45:03 - BTC Session ended, waiting for the next market
+14:45:09 - BTC PAPER DOWN closed | entry 0.51 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +147.0000 | held_to_resolution
+14:45:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021645-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT021645-45-DOWN-89910500
+14:45:20 - BTC New PAPER session (KXBTC15M-26OCT021700-00, shard 2)
+14:45:20 - BTC Requesting AI analytics with 14.67 minutes remaining
+14:45:20 - BTC Requesting DEEPSEEK analysis and credit charge
+14:45:45 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3709 | tokens in/out/reasoning=7108/3593/3511
+14:45:46 - BTC AI reason | Active 15m candle is barely above open by $1.74 after a sharp sell-off; 1M and 1H timeframes remain bearish with negative MACD and strong down-sloping regressions. Recent 15m bars closed red and price sits near fragile 1M support at 84222.86, so bearish continuation dominates.
+14:45:46 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021700-00 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+14:45:47 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.49 — placing PAPER order
+14:45:47 - BTC PAPER position confirmed | fill 0.49 | size 300 | simulated entry fees 0.0000 (current ask)
+14:45:47 - BTC Holding PAPER DOWN to market resolution
+15:00:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+15:00:01 - BTC Waiting for market data
+15:00:02 - BTC Session ended, waiting for the next market
+15:00:10 - BTC PAPER DOWN closed | entry 0.49 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -147.0000 | held_to_resolution
+15:00:12 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021700-00 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT021700-00-DOWN-90803921
+15:00:20 - BTC New PAPER session (KXBTC15M-26OCT021715-15, shard 2)
+15:00:20 - BTC Requesting AI analytics with 14.67 minutes remaining
+15:00:20 - BTC Requesting DEEPSEEK analysis and credit charge
+15:00:58 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3707 | tokens in/out/reasoning=7079/5249/5161
+15:00:58 - BTC AI reason | Active 15m is barely above open 19s in, but last 1m candle was a strong green breakout above 20-bar resistance with 1m EMA8>EMA21, RSI 60, positive MACD, and 15m 10-bar regression positive. 6H bullish regime supports the bounce; near-term momentum outweighs 1H bearish backdrop.
+15:00:58 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021715-15 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+15:00:59 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.60 — placing PAPER order
+15:00:59 - BTC PAPER position confirmed | fill 0.60 | size 300 | simulated entry fees 0.0000 (current ask)
+15:00:59 - BTC Holding PAPER UP to market resolution
+15:15:01 - BTC PAPER UP held to resolution | PnL settlement pending
+15:15:01 - BTC Waiting for market data
+15:15:03 - BTC Session ended, waiting for the next market
+15:15:07 - BTC PAPER UP closed | entry 0.60 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +120.0000 | held_to_resolution
+15:15:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021715-15 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT021715-15-UP-91716046
+15:15:14 - BTC New PAPER session (KXBTC15M-26OCT021730-30, shard 2)
+15:15:14 - BTC Requesting AI analytics with 14.77 minutes remaining
+15:15:14 - BTC Requesting DEEPSEEK analysis and credit charge
+15:16:40 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3705 | tokens in/out/reasoning=7088/12005/11928
+15:16:40 - BTC AI reason | Active 15m is barely above open after a 1m/15m rejection at 84509 and three lower 1m closes; 1H trend remains bearish with negative regression/MACD, while 1m MACD is negative and adjusted spot 5m return disagrees, favoring reversal back below the open.
+15:16:40 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021730-30 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+15:16:42 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.45 — placing PAPER order
+15:16:42 - BTC PAPER position confirmed | fill 0.45 | size 300 | simulated entry fees 0.0000 (current ask)
+15:16:42 - BTC Holding PAPER DOWN to market resolution
+15:30:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+15:30:01 - BTC Waiting for market data
+15:30:03 - BTC Waiting for prior-session PnL settlement before starting the next session
+15:30:11 - BTC PAPER DOWN closed | entry 0.45 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +165.0000 | held_to_resolution
+15:30:12 - BTC New PAPER session (KXBTC15M-26OCT021745-45, shard 2)
+15:30:12 - BTC Requesting AI analytics with 14.80 minutes remaining
+15:30:12 - BTC Requesting DEEPSEEK analysis and credit charge
+15:30:42 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3703 | tokens in/out/reasoning=7115/4196/4104
+15:30:42 - BTC AI reason | Active 15m candle is only ~1% elapsed and effectively at open; lower-timeframe evidence is bearish: 1m RSI 36.8, negative MACD/regression, price below EMAs and sitting just above 84423 support, while 1h trend is bearish with RSI 39.6 and strong negative 10-bar slope. Expect continuation below the open.
+15:30:42 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021745-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+15:30:44 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.54 — placing PAPER order
+15:30:44 - BTC PAPER position confirmed | fill 0.54 | size 300 | simulated entry fees 0.0000 (current ask)
+15:30:44 - BTC Holding PAPER DOWN to market resolution
+15:30:44 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021730-30 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT021730-30-DOWN-92658765
+15:45:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+15:45:01 - BTC Waiting for market data
+15:45:03 - BTC Session ended, waiting for the next market
+15:45:04 - BTC PAPER DOWN closed | entry 0.54 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -162.0000 | held_to_resolution
+15:45:06 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021745-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT021745-45-DOWN-93500843
+15:45:18 - BTC New PAPER session (KXBTC15M-26OCT021800-00, shard 2)
+15:45:18 - BTC Requesting AI analytics with 14.70 minutes remaining
+15:45:18 - BTC Requesting DEEPSEEK analysis and credit charge
+15:46:46 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3701 | tokens in/out/reasoning=7062/13331/13236
+15:46:46 - BTC AI reason | Active 15m is barely above open (+0.0006%) with 883s left; the immediately preceding 1m bar was a large bearish candle from 84517.96 to 84503.88 closing near its low after rejecting near 84519.8, and 1H momentum remains bearish (negative MACD, RSI 40.8), supporting a move back below the open.
+15:46:46 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021800-00 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+15:46:47 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.43 — placing PAPER order
+15:46:47 - BTC PAPER position confirmed | fill 0.43 | size 300 | simulated entry fees 0.0000 (current ask)
+15:46:47 - BTC Holding PAPER DOWN to market resolution
+16:00:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+16:00:01 - BTC Waiting for market data
+16:00:03 - BTC Session ended, waiting for the next market
+16:00:06 - BTC PAPER DOWN closed | entry 0.43 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -129.0000 | held_to_resolution
+16:00:06 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021800-00 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT021800-00-DOWN-94463921
+16:00:08 - BTC New PAPER session (KXBTC15M-26OCT021815-15, shard 2)
+16:00:08 - BTC Requesting AI analytics with 14.87 minutes remaining
+16:00:08 - BTC Requesting DEEPSEEK analysis and credit charge
+16:00:49 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3699 | tokens in/out/reasoning=7066/6072/6002
+16:00:49 - BTC AI reason | Active 15m candle is 0.0018% above open; short-term momentum is positive with 1m RSI 57.6, EMA8 above EMA21, three green 1m closes, and a positive 15m MACD histogram, so continuation above open is favored.
+16:00:50 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021815-15 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+16:00:51 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.52 — placing PAPER order
+16:00:51 - BTC PAPER position confirmed | fill 0.52 | size 300 | simulated entry fees 0.0000 (current ask)
+16:00:51 - BTC Holding PAPER UP to market resolution
+16:15:01 - BTC PAPER UP held to resolution | PnL settlement pending
+16:15:01 - BTC Waiting for market data
+16:15:02 - BTC Session ended, waiting for the next market
+16:15:08 - BTC Waiting for prior-session PnL settlement before starting the next session
+16:15:13 - BTC PAPER UP closed | entry 0.52 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +144.0000 | held_to_resolution
+16:15:13 - BTC New PAPER session (KXBTC15M-26OCT021830-30, shard 2)
+16:15:13 - BTC Requesting AI analytics with 14.78 minutes remaining
+16:15:13 - BTC Requesting DEEPSEEK analysis and credit charge
+16:15:42 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3697 | tokens in/out/reasoning=7097/3963/3874
+16:15:42 - BTC AI reason | Immediate 1M momentum is bullish: positive MACD, RSI 62.6, strong up-sloped regression with R² 0.73, and last 1M bars close at highs. Active 15m candle is green just above open, while 15m MACD is positive and the 6h regime is bullish, supporting continuation despite nearby 84518 resistance.
+16:15:42 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021830-30 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+16:15:43 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.51 — placing PAPER order
+16:15:44 - BTC PAPER position confirmed | fill 0.51 | size 300 | simulated entry fees 0.0000 (current ask)
+16:15:44 - BTC Holding PAPER UP to market resolution
+16:15:44 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021815-15 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT021815-15-UP-95307812
+16:30:00 - BTC PAPER UP held to resolution | PnL settlement pending
+16:30:01 - BTC Waiting for market data
+16:30:02 - BTC Session ended, waiting for the next market
+16:30:08 - BTC PAPER UP closed | entry 0.51 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -153.0000 | held_to_resolution
+16:30:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021830-30 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT021830-30-UP-96200343
+16:30:24 - BTC New PAPER session (KXBTC15M-26OCT021845-45, shard 2)
+16:30:24 - BTC Requesting AI analytics with 14.60 minutes remaining
+16:30:24 - BTC Requesting DEEPSEEK analysis and credit charge
+16:31:47 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3695 | tokens in/out/reasoning=7101/9710/9617
+16:31:47 - BTC AI reason | 1H timeframe is strongly bearish (RSI 40.86, MACD histogram -241, regression slope -0.243%/bar, R^2 0.71), while 1M MACD is negative and the current +0.0038% move is tiny versus 15M ATR 0.194%; this looks like a countertrend bounce likely to reverse below the open.
+16:31:47 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021845-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+16:31:48 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.42 — placing PAPER order
+16:31:48 - BTC PAPER position confirmed | fill 0.42 | size 300 | simulated entry fees 0.0000 (current ask)
+16:31:48 - BTC Holding PAPER DOWN to market resolution
+16:45:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+16:45:01 - BTC Waiting for market data
+16:45:02 - BTC Session ended, waiting for the next market
+16:45:06 - BTC PAPER DOWN closed | entry 0.42 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +174.0000 | held_to_resolution
+16:45:06 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021845-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT021845-45-DOWN-97164859
+16:45:08 - BTC New PAPER session (KXBTC15M-26OCT021900-00, shard 2)
+16:45:08 - BTC Requesting AI analytics with 14.87 minutes remaining
+16:45:08 - BTC Requesting DEEPSEEK analysis and credit charge
+16:45:51 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3693 | tokens in/out/reasoning=7102/6818/6743
+16:45:51 - BTC AI reason | 1H and 15M momentum are bearish (RSI ~41-43, negative 1H MACD/regression, price below EMAs); the preceding 15M bar rejected highs near 84537 and closed near lows. The active candle is essentially flat at its open, so downside continuation is favored.
+16:45:51 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021900-00 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+16:45:52 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.47 — placing PAPER order
+16:45:52 - BTC PAPER position confirmed | fill 0.47 | size 300 | simulated entry fees 0.0000 (current ask)
+16:45:52 - BTC Holding PAPER DOWN to market resolution
+17:00:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+17:00:03 - BTC Session ended, waiting for the next market
+17:00:04 - BTC PAPER DOWN closed | entry 0.47 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -141.0000 | held_to_resolution
+17:00:04 - BTC Waiting for market data
+17:00:06 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021900-00 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT021900-00-DOWN-98008500
+17:00:20 - BTC New PAPER session (KXBTC15M-26OCT021915-15, shard 2)
+17:00:20 - BTC Requesting AI analytics with 14.67 minutes remaining
+17:00:20 - BTC Requesting DEEPSEEK analysis and credit charge
+17:00:56 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3691 | tokens in/out/reasoning=7079/5533/5423
+17:00:56 - BTC AI reason | Immediate 1m momentum is bullish: EMA8>EMA21>EMA55, RSI 60.98, positive MACD histogram and regression, with price breaking above the prior 20-bar 1m high. The active 15m opened slightly above its open and 15m up-ratio is 0.7 while 6h trend is bullish; adjusted/raw 5m and 15m spot returns are positive, outweighing the bearish 1h regime.
+17:00:57 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021915-15 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+17:00:58 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.52 — placing PAPER order
+17:00:58 - BTC PAPER position confirmed | fill 0.52 | size 300 | simulated entry fees 0.0000 (current ask)
+17:00:58 - BTC Holding PAPER UP to market resolution
+17:15:00 - BTC PAPER UP held to resolution | PnL settlement pending
+17:15:03 - BTC Session ended, waiting for the next market
+17:15:04 - BTC Waiting for market data
+17:15:07 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021915-15 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT021915-15-UP-98914578
+17:15:09 - BTC PAPER UP closed | entry 0.52 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -156.0000 | held_to_resolution
+17:15:26 - BTC New PAPER session (KXBTC15M-26OCT021930-30, shard 2)
+17:15:26 - BTC Requesting AI analytics with 14.57 minutes remaining
+17:15:27 - BTC Requesting DEEPSEEK analysis and credit charge
+17:16:27 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3689 | tokens in/out/reasoning=7083/8294/8217
+17:16:27 - BTC AI reason | 1m and 1h timeframes remain bearish: RSI 37.6/40.7, negative MACD, negative regression, price below EMAs. Active 15m candle is only +0.0005% above its open versus ~0.21% 15m volatility, so downside continuation is favored.
+17:16:28 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021930-30 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+17:16:29 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.43 — placing PAPER order
+17:16:29 - BTC PAPER position confirmed | fill 0.43 | size 300 | simulated entry fees 0.0000 (current ask)
+17:16:29 - BTC Holding PAPER DOWN to market resolution
+17:30:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+17:30:01 - BTC Waiting for market data
+17:30:03 - BTC Session ended, waiting for the next market
+17:30:09 - BTC PAPER DOWN closed | entry 0.43 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -129.0000 | held_to_resolution
+17:30:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021930-30 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT021930-30-DOWN-99845500
+17:30:29 - BTC New PAPER session (KXBTC15M-26OCT021945-45, shard 2)
+17:30:29 - BTC Requesting AI analytics with 14.52 minutes remaining
+17:30:29 - BTC Requesting DEEPSEEK analysis and credit charge
+17:31:13 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3687 | tokens in/out/reasoning=7097/6009/5916
+17:31:13 - BTC AI reason | Active 15m candle is below its open and at its low; 1m RSI 71.8 and Bollinger z 2.26 show overbought stretch after the rally, last 1m bar rejected near 1m resistance 84545.8, and 1H regime remains bearish with spot 1m/5m returns negative, favoring mean reversion below the open.
+17:31:13 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021945-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+17:31:13 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.59 — placing PAPER order
+17:31:13 - BTC PAPER position confirmed | fill 0.59 | size 300 | simulated entry fees 0.0000 (current ask)
+17:31:13 - BTC Holding PAPER DOWN to market resolution
+17:45:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+17:45:02 - BTC Session ended, waiting for the next market
+17:45:04 - BTC Waiting for market data
+17:45:09 - BTC PAPER DOWN closed | entry 0.59 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +123.0000 | held_to_resolution
+17:45:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT021945-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT021945-45-DOWN-100730218
+17:45:31 - BTC New PAPER session (KXBTC15M-26OCT022000-00, shard 2)
+17:45:31 - BTC Requesting AI analytics with 14.48 minutes remaining
+17:45:31 - BTC Requesting DEEPSEEK analysis and credit charge
+17:46:24 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3685 | tokens in/out/reasoning=7112/6274/6185
+17:46:24 - BTC AI reason | Current 15m candle is +0.008% above open with only 4.8% elapsed; immediate 1m momentum is strongly bullish (RSI 68.6, positive MACD histogram, 10-bar regression R² 0.92, 9/10 up bars). Price broke the prior 20-bar high and 6h trend is bullish, favoring continuation.
+17:46:25 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022000-00 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+17:46:25 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.45 — placing PAPER order
+17:46:25 - BTC PAPER position confirmed | fill 0.45 | size 300 | simulated entry fees 0.0000 (current ask)
+17:46:25 - BTC Holding PAPER UP to market resolution
+18:00:00 - BTC PAPER UP held to resolution | PnL settlement pending
+18:00:00 - BTC Waiting for market data
+18:00:02 - BTC Session ended, waiting for the next market
+18:00:05 - BTC PAPER UP closed | entry 0.45 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -135.0000 | held_to_resolution
+18:00:06 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022000-00 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT022000-00-UP-101642328
+18:00:24 - BTC New PAPER session (KXBTC15M-26OCT022015-15, shard 2)
+18:00:24 - BTC Requesting AI analytics with 14.60 minutes remaining
+18:00:24 - BTC Requesting DEEPSEEK analysis and credit charge
+18:01:54 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3683 | tokens in/out/reasoning=7085/14200/14100
+18:01:54 - BTC AI reason | Immediate 1m pressure is bearish: RSI 38.9, MACD histogram -5.44, 10-bar regression -0.0067% with R² 0.78. 15m and 1h are also bearish, and the active candle is only +0.0009% above its open with 14.6 minutes left, making a move back below 84503.99 more likely.
+18:01:54 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022015-15 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+18:01:55 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.66 — placing PAPER order
+18:01:56 - BTC PAPER position confirmed | fill 0.66 | size 300 | simulated entry fees 0.0000 (current ask)
+18:01:56 - BTC Holding PAPER DOWN to market resolution
+18:15:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+18:15:03 - BTC Session ended, waiting for the next market
+18:15:05 - BTC Waiting for market data
+18:15:06 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022015-15 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT022015-15-DOWN-102572265
+18:15:08 - BTC PAPER DOWN closed | entry 0.66 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +102.0000 | held_to_resolution
+18:15:29 - BTC New PAPER session (KXBTC15M-26OCT022030-30, shard 2)
+18:15:30 - BTC Requesting AI analytics with 14.52 minutes remaining
+18:15:30 - BTC Requesting DEEPSEEK analysis and credit charge
+18:16:28 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3681 | tokens in/out/reasoning=7092/8841/8733
+18:16:28 - BTC AI reason | Current 15m bar is +0.014% above its open at its high with no upper wick; 1m momentum is positive (MACD histogram positive, RSI 57, strong 10-bar regression R² 0.81) after a long lower-wick 15m bounce near 84435. 6H trend is bullish; 1H bearish is the main counter, but immediate/15m/6H evidence favors continuation above the open.
+18:16:28 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022030-30 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+18:16:29 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.71 — placing PAPER order
+18:16:30 - BTC PAPER position confirmed | fill 0.71 | size 300 | simulated entry fees 0.0000 (current ask)
+18:16:30 - BTC Holding PAPER UP to market resolution
+18:30:00 - BTC PAPER UP held to resolution | PnL settlement pending
+18:30:02 - BTC PAPER UP closed | entry 0.71 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +87.0000 | held_to_resolution
+18:30:03 - BTC Session ended, waiting for the next market
+18:30:03 - BTC Waiting for market data
+18:30:06 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022030-30 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT022030-30-UP-103446031
+18:30:30 - BTC New PAPER session (KXBTC15M-26OCT022045-45, shard 2)
+18:30:30 - BTC Requesting AI analytics with 14.50 minutes remaining
+18:30:30 - BTC Requesting DEEPSEEK analysis and credit charge
+18:30:53 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3679 | tokens in/out/reasoning=7057/3534/3442
+18:30:53 - BTC AI reason | Immediate 1-minute momentum is bullish: RSI 66.7, positive MACD histogram, three consecutive full-body green 1m bars, and the active 1m/15m candle is at its high after breaking prior 1m resistance. The prior 15m bar also closed strongly green, and the 6h regime is supportive, outweighing the bearish 1h background.
+18:30:54 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022045-45 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+18:30:55 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.61 — placing PAPER order
+18:30:55 - BTC PAPER position confirmed | fill 0.61 | size 300 | simulated entry fees 0.0000 (current ask)
+18:30:55 - BTC Holding PAPER UP to market resolution
+18:45:02 - BTC PAPER UP held to resolution | PnL settlement pending
+18:45:03 - BTC Session ended, waiting for the next market
+18:45:06 - BTC Waiting for market data
+18:45:10 - BTC PAPER UP closed | entry 0.61 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +117.0000 | held_to_resolution
+18:45:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022045-45 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT022045-45-UP-104311921
+18:45:20 - BTC New PAPER session (KXBTC15M-26OCT022100-00, shard 2)
+18:45:20 - BTC Requesting AI analytics with 14.67 minutes remaining
+18:45:20 - BTC Requesting DEEPSEEK analysis and credit charge
+18:46:44 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3677 | tokens in/out/reasoning=7099/15160/15074
+18:46:44 - BTC AI reason | Immediate 1-minute momentum is bullish: the last completed 1M candle closed at its high, 1M RSI is 66, and the 20-bar 1M regression is positive. The active 15M opened after a strong green 15M close and is slightly above its open, with 6H also bullish; this supports continuation above the open.
+18:46:44 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022100-00 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+18:46:46 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.49 — placing PAPER order
+18:46:46 - BTC PAPER position confirmed | fill 0.49 | size 300 | simulated entry fees 0.0000 (current ask)
+18:46:46 - BTC Holding PAPER UP to market resolution
+19:00:01 - BTC PAPER UP held to resolution | PnL settlement pending
+19:00:01 - BTC Waiting for market data
+19:00:03 - BTC Session ended, waiting for the next market
+19:00:08 - BTC PAPER UP closed | entry 0.49 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +153.0000 | held_to_resolution
+19:00:10 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022100-00 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT022100-00-UP-105262500
+19:00:25 - BTC New PAPER session (KXBTC15M-26OCT022115-15, shard 2)
+19:00:26 - BTC Requesting AI analytics with 14.58 minutes remaining
+19:00:26 - BTC Requesting DEEPSEEK analysis and credit charge
+19:01:34 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3675 | tokens in/out/reasoning=7109/10097/10017
+19:01:34 - BTC AI reason | Active 15m candle is early and currently below its open, with the 1m active bar red and closing at its low; short-term spot returns are negative and the prior 15m candle shows upper-wick rejection near 84662 resistance, while 1H trend remains bearish. This favors a final close at or below the open.
+19:01:34 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022115-15 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+19:01:35 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.67 — placing PAPER order
+19:01:35 - BTC PAPER position confirmed | fill 0.67 | size 300 | simulated entry fees 0.0000 (current ask)
+19:01:35 - BTC Holding PAPER DOWN to market resolution
+19:15:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+19:15:02 - BTC Session ended, waiting for the next market
+19:15:03 - BTC Waiting for market data
+19:15:08 - BTC PAPER DOWN closed | entry 0.67 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +99.0000 | held_to_resolution
+19:15:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022115-15 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT022115-15-DOWN-106152203
+19:15:12 - BTC New PAPER session (KXBTC15M-26OCT022130-30, shard 2)
+19:15:13 - BTC Requesting AI analytics with 14.80 minutes remaining
+19:15:13 - BTC Requesting DEEPSEEK analysis and credit charge
+19:17:14 - RETRY 1: Model call failed | errorCode=NSAI-R003
+19:18:49 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3673 | tokens in/out/reasoning=7066/8934/8849
+19:18:49 - BTC AI reason | Current is +0.0037% above open, 15m trend is bullish (MACD hist +54.7, positive 10-bar slope with R^2 0.73, price above EMA8/21) and 6h remains bullish, while 1m/1h bearish signals are less decisive; estimated continuation favors final close above open.
+19:18:49 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022130-30 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+19:18:50 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.47 — placing PAPER order
+19:18:50 - BTC PAPER position confirmed | fill 0.47 | size 300 | simulated entry fees 0.0000 (current ask)
+19:18:50 - BTC Holding PAPER UP to market resolution
+19:30:01 - BTC PAPER UP held to resolution | PnL settlement pending
+19:30:02 - BTC Session ended, waiting for the next market
+19:30:04 - BTC Waiting for market data
+19:30:09 - BTC PAPER UP closed | entry 0.47 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -141.0000 | held_to_resolution
+19:30:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022130-30 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT022130-30-UP-107186734
+19:30:20 - BTC New PAPER session (KXBTC15M-26OCT022145-45, shard 2)
+19:30:20 - BTC Requesting AI analytics with 14.68 minutes remaining
+19:30:20 - BTC Requesting DEEPSEEK analysis and credit charge
+19:31:38 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3671 | tokens in/out/reasoning=7061/10010/9923
+19:31:38 - BTC AI reason | Target is only +0.003% above open with ~98% of candle left. 1M trend is bearish (RSI 42.7, MACD hist negative, EMA8<EMA21, negative regression) and 1H is bearish near its low after rejecting 84698.92 resistance. Raw/adjusted spot series diverge, increasing reversal risk.
+19:31:38 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022145-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+19:31:39 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.35 — placing PAPER order
+19:31:39 - BTC PAPER position confirmed | fill 0.35 | size 300 | simulated entry fees 0.0000 (current ask)
+19:31:39 - BTC Holding PAPER DOWN to market resolution
+19:45:03 - BTC PAPER DOWN held to resolution | PnL settlement pending
+19:45:03 - BTC Waiting for market data
+19:45:04 - BTC Session ended, waiting for the next market
+19:45:10 - BTC PAPER DOWN closed | entry 0.35 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -105.0000 | held_to_resolution
+19:45:12 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022145-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT022145-45-DOWN-107956109
+19:45:15 - BTC New PAPER session (KXBTC15M-26OCT022200-00, shard 2)
+19:45:16 - BTC Requesting AI analytics with 14.75 minutes remaining
+19:45:16 - BTC Requesting DEEPSEEK analysis and credit charge
+19:45:50 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3669 | tokens in/out/reasoning=7098/5759/5658
+19:45:51 - BTC AI reason | Target candle is slightly below its open with short-term 1M regression_10 negative at -0.00188%/bar (R² 0.61), 1M RSI 47.4 and MACD negative; spot adjusted 5/15-bar returns are also negative while 1H trend is bearish. This short-term downward drift outweighs mixed 15M/6H bullish signals, favoring a close at or below open.
+19:45:51 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022200-00 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+19:45:52 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.51 — placing PAPER order
+19:45:52 - BTC PAPER position confirmed | fill 0.51 | size 300 | simulated entry fees 0.0000 (current ask)
+19:45:52 - BTC Holding PAPER DOWN to market resolution
+20:00:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+20:00:03 - BTC Session ended, waiting for the next market
+20:00:04 - BTC PAPER DOWN closed | entry 0.51 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -153.0000 | held_to_resolution
+20:00:04 - BTC Waiting for market data
+20:00:06 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022200-00 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT022200-00-DOWN-108808421
+20:00:13 - BTC New PAPER session (KXBTC15M-26OCT022215-15, shard 2)
+20:00:14 - BTC Requesting AI analytics with 14.78 minutes remaining
+20:00:14 - BTC Requesting DEEPSEEK analysis and credit charge
+20:02:15 - RETRY 1: Model call failed | errorCode=NSAI-R003
+20:04:15 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3667 | tokens in/out/reasoning=7066/13895/13797
+20:04:15 - BTC AI reason | Active 15m is only 1.4% elapsed and current sits slightly above open. Lower-timeframe momentum favors continuation: 1m closed at its high with positive MACD/RSI, 15m MACD histogram and 10/20-bar regression are positive with high R², and 6h/cross-timeframe alignment is bullish; this outweighs the bearish 1h bend and near-term overextension.
+20:04:16 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022215-15 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+20:04:17 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.49 — placing PAPER order
+20:04:17 - BTC PAPER position confirmed | fill 0.49 | size 300 | simulated entry fees 0.0000 (current ask)
+20:04:17 - BTC Holding PAPER UP to market resolution
+20:15:02 - BTC PAPER UP held to resolution | PnL settlement pending
+20:15:03 - BTC Session ended, waiting for the next market
+20:15:05 - BTC Waiting for market data
+20:15:14 - BTC PAPER UP closed | entry 0.49 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -147.0000 | held_to_resolution
+20:15:17 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022215-15 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT022215-15-UP-109913718
+20:15:25 - BTC New PAPER session (KXBTC15M-26OCT022230-30, shard 2)
+20:15:25 - BTC Requesting AI analytics with 14.58 minutes remaining
+20:15:25 - BTC Requesting DEEPSEEK analysis and credit charge
+20:16:20 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3665 | tokens in/out/reasoning=7088/6015/5957
+20:16:20 - BTC AI reason | Active 15m candle is slightly above its open and at its high, with 1m bars bouncing from 84592 support and 15m EMA8>21 plus positive MACD histogram; immediate momentum favors a close above the open.
+20:16:20 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022230-30 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+20:16:21 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.62 — placing PAPER order
+20:16:21 - BTC PAPER position confirmed | fill 0.62 | size 300 | simulated entry fees 0.0000 (current ask)
+20:16:21 - BTC Holding PAPER UP to market resolution
+20:30:01 - BTC PAPER UP held to resolution | PnL settlement pending
+20:30:01 - BTC Waiting for market data
+20:30:03 - BTC Session ended, waiting for the next market
+20:30:07 - BTC PAPER UP closed | entry 0.62 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +114.0000 | held_to_resolution
+20:30:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022230-30 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT022230-30-UP-110637703
+20:30:36 - BTC New PAPER session (KXBTC15M-26OCT022245-45, shard 2)
+20:30:36 - BTC Requesting AI analytics with 14.40 minutes remaining
+20:30:36 - BTC Requesting DEEPSEEK analysis and credit charge
+20:31:34 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3663 | tokens in/out/reasoning=7077/10796/10702
+20:31:34 - BTC AI reason | Active 15m candle is -0.0072% below its open at only 3.9% elapsed; 1m momentum is down (current/prior 1m red, 1m regression10 negative), 5m spot returns are negative, and 1h regime is bearish. Prior 15m left an upper wick near 84668, supporting rejection and a close below open.
+20:31:34 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022245-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+20:31:36 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.60 — placing PAPER order
+20:31:36 - BTC PAPER position confirmed | fill 0.60 | size 300 | simulated entry fees 0.0000 (current ask)
+20:31:36 - BTC Holding PAPER DOWN to market resolution
+20:45:02 - BTC PAPER DOWN held to resolution | PnL settlement pending
+20:45:02 - BTC Waiting for market data
+20:45:04 - BTC Session ended, waiting for the next market
+20:45:05 - BTC PAPER DOWN closed | entry 0.60 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -180.0000 | held_to_resolution
+20:45:06 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022245-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT022245-45-DOWN-111552406
+20:45:09 - BTC New PAPER session (KXBTC15M-26OCT022300-00, shard 2)
+20:45:09 - BTC Requesting AI analytics with 14.85 minutes remaining
+20:45:09 - BTC Requesting DEEPSEEK analysis and credit charge
+20:46:52 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3661 | tokens in/out/reasoning=7097/10684/10616
+20:46:52 - BTC AI reason | 15M and 1M timeframes show bullish alignment (EMA8 above EMA21, positive MACD histograms, RSI 53/64), positive regression slopes, and recent green 15M bars; active candle is slightly above its open and 6H context also supports continuation.
+20:46:52 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022300-00 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+20:46:54 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.27 — placing PAPER order
+20:46:54 - BTC PAPER position confirmed | fill 0.27 | size 300 | simulated entry fees 0.0000 (current ask)
+20:46:54 - BTC Holding PAPER UP to market resolution
+21:00:01 - BTC PAPER UP held to resolution | PnL settlement pending
+21:00:02 - BTC Session ended, waiting for the next market
+21:00:04 - BTC Waiting for market data
+21:00:09 - BTC PAPER UP closed | entry 0.27 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -81.0000 | held_to_resolution
+21:00:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022300-00 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT022300-00-UP-112470578
+21:00:36 - BTC New PAPER session (KXBTC15M-26OCT022315-15, shard 2)
+21:00:36 - BTC Requesting AI analytics with 14.40 minutes remaining
+21:00:36 - BTC Requesting DEEPSEEK analysis and credit charge
+21:02:30 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3659 | tokens in/out/reasoning=7091/17038/16954
+21:02:30 - BTC AI reason | Short-term momentum remains bearish: 1m EMA8<EMA21<EMA55, negative regression, MACD below signal, and prior 15m closed as a large red candle. The active candle is only +0.003% above open early in the bar, with 1h and cross-timeframe bearish majority supporting a close at or below open.
+21:02:31 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022315-15 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+21:02:33 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.26 — placing PAPER order
+21:02:33 - BTC PAPER position confirmed | fill 0.26 | size 300 | simulated entry fees 0.0000 (current ask)
+21:02:33 - BTC Holding PAPER DOWN to market resolution
+21:15:02 - BTC PAPER DOWN held to resolution | PnL settlement pending
+21:15:03 - BTC Session ended, waiting for the next market
+21:15:04 - BTC Waiting for market data
+21:15:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022315-15 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT022315-15-DOWN-113409531
+21:15:12 - BTC PAPER DOWN closed | entry 0.26 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +222.0000 | held_to_resolution
+21:15:30 - BTC New PAPER session (KXBTC15M-26OCT022330-30, shard 2)
+21:15:30 - BTC Requesting AI analytics with 14.50 minutes remaining
+21:15:30 - BTC Requesting DEEPSEEK analysis and credit charge
+21:16:14 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3657 | tokens in/out/reasoning=7133/4635/4543
+21:16:14 - BTC AI reason | Active 15m candle is already below open and near its low, while 1M shows a consistent downward drift (regression slope -0.008%/bar, R² 0.92) with latest bars closing near lows. 15M/1H trend and cross-timeframe alignment are bearish; last two 15M bars were large red candles, supporting a final close below the open.
+21:16:14 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022330-30 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+21:16:16 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.15 — placing PAPER order
+21:16:16 - BTC PAPER position confirmed | fill 0.15 | size 300 | simulated entry fees 0.0000 (current ask)
+21:16:16 - BTC Holding PAPER DOWN to market resolution
+21:30:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+21:30:02 - BTC Session ended, waiting for the next market
+21:30:04 - BTC Waiting for market data
+21:30:08 - BTC PAPER DOWN closed | entry 0.15 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -45.0000 | held_to_resolution
+21:30:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022330-30 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT022330-30-DOWN-114232734
+21:30:18 - BTC New PAPER session (KXBTC15M-26OCT022345-45, shard 2)
+21:30:18 - BTC Requesting AI analytics with 14.70 minutes remaining
+21:30:19 - BTC Requesting DEEPSEEK analysis and credit charge
+21:31:17 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3655 | tokens in/out/reasoning=7103/6038/5963
+21:31:17 - BTC AI reason | 1-minute momentum is bullish: EMA8>EMA21, MACD histogram +4.27, RSI 52.7, positive regression slope, 80% up-ratio, and price is already just above the active 15m open after recovery from 84516, favoring continuation despite mixed higher-timeframe alignment.
+21:31:17 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022345-45 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+21:31:18 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.63 — placing PAPER order
+21:31:18 - BTC PAPER position confirmed | fill 0.63 | size 300 | simulated entry fees 0.0000 (current ask)
+21:31:18 - BTC Holding PAPER UP to market resolution
+21:45:01 - BTC PAPER UP held to resolution | PnL settlement pending
+21:45:01 - BTC Waiting for market data
+21:45:03 - BTC Session ended, waiting for the next market
+21:45:06 - BTC PAPER UP closed | entry 0.63 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +111.0000 | held_to_resolution
+21:45:06 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT022345-45 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT022345-45-UP-115134343
+21:45:18 - BTC New PAPER session (KXBTC15M-26OCT030000-00, shard 2)
+21:45:19 - BTC Requesting AI analytics with 14.70 minutes remaining
+21:45:19 - BTC Requesting DEEPSEEK analysis and credit charge
+21:45:40 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3653 | tokens in/out/reasoning=7246/2061/1698
+21:45:40 - BTC AI reason | 1-minute momentum is strongly bullish with EMA8>EMA21, positive MACD, positive regression, and recent bars closing at highs; 15m and 6h trend scores are also bullish. The active 15m candle is only ~2% elapsed and is slightly above its open, leaving continuation room despite overbought 1m RSI and a bearish 1h backdrop.
+21:45:40 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT030000-00 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+21:45:42 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.53 — placing PAPER order
+21:45:42 - BTC PAPER position confirmed | fill 0.53 | size 300 | simulated entry fees 0.0000 (current ask)
+21:45:42 - BTC Holding PAPER UP to market resolution
+22:00:02 - BTC PAPER UP held to resolution | PnL settlement pending
+22:00:03 - BTC Session ended, waiting for the next market
+22:00:04 - BTC Waiting for market data
+22:00:08 - BTC PAPER UP closed | entry 0.53 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +141.0000 | held_to_resolution
+22:00:10 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT030000-00 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT030000-00-UP-115998609
+22:00:31 - BTC New PAPER session (KXBTC15M-26OCT030015-15, shard 2)
+22:00:31 - BTC Requesting AI analytics with 14.48 minutes remaining
+22:00:31 - BTC Requesting DEEPSEEK analysis and credit charge
+22:01:35 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3651 | tokens in/out/reasoning=7083/6764/6682
+22:01:35 - BTC AI reason | Active 15m candle sits above its open (+0.0057%) at the high with no upper wick. 1m momentum is strong: up_ratio_10=1, EMA8>EMA21, MACD positive, and price broke its 20-bar high. 15m and 6h trend scores are bullish, supporting continuation.
+22:01:35 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT030015-15 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+22:01:37 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.58 — placing PAPER order
+22:01:37 - BTC PAPER position confirmed | fill 0.58 | size 300 | simulated entry fees 0.0000 (current ask)
+22:01:37 - BTC Holding PAPER UP to market resolution
+22:15:01 - BTC PAPER UP held to resolution | PnL settlement pending
+22:15:01 - BTC Waiting for market data
+22:15:02 - BTC Session ended, waiting for the next market
+22:15:10 - BTC PAPER UP closed | entry 0.58 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -174.0000 | held_to_resolution
+22:15:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT030015-15 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT030015-15-UP-116953468
+22:15:19 - BTC New PAPER session (KXBTC15M-26OCT030030-30, shard 2)
+22:15:19 - BTC Requesting AI analytics with 14.68 minutes remaining
+22:15:19 - BTC Requesting DEEPSEEK analysis and credit charge
+22:17:04 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3649 | tokens in/out/reasoning=7123/11229/11137
+22:17:04 - BTC AI reason | Immediate 1m momentum remains bearish after a sharp rejection at 84713 resistance; 1m regression_10 is negative with strong R2, MACD/EMA are negative, and the prior 15m/1H candles closed near their lows. Current price is only 0.0001% above the active open, so continued downside pressure makes a close at/below open more likely.
+22:17:04 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT030030-30 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+22:17:07 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.87 — placing PAPER order
+22:17:08 - BTC PAPER position confirmed | fill 0.87 | size 300 | simulated entry fees 0.0000 (current ask)
+22:17:08 - BTC Holding PAPER DOWN to market resolution
+22:30:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+22:30:01 - BTC Waiting for market data
+22:30:03 - BTC Session ended, waiting for the next market
+22:30:04 - BTC PAPER DOWN closed | entry 0.87 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +39.0000 | held_to_resolution
+22:30:05 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT030030-30 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT030030-30-DOWN-117883734
+22:30:13 - BTC New PAPER session (KXBTC15M-26OCT030045-45, shard 2)
+22:30:13 - BTC Requesting AI analytics with 14.78 minutes remaining
+22:30:14 - BTC Requesting DEEPSEEK analysis and credit charge
+22:30:37 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3647 | tokens in/out/reasoning=7261/3261/2723
+22:30:37 - BTC AI reason | Active 15m candle trades below its open (84519.03 vs 84520.34) and the 1m trend is strongly bearish: RSI 15.2, negative regression slope, negative MACD, recent 1m bars closing near lows. 15m/1h readings are also bearish, and cross-timeframe alignment is bearish_majority, favoring continuation below the open.
+22:30:37 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT030045-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+22:30:38 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.39 — placing PAPER order
+22:30:38 - BTC PAPER position confirmed | fill 0.39 | size 300 | simulated entry fees 0.0000 (current ask)
+22:30:38 - BTC Holding PAPER DOWN to market resolution
+22:45:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+22:45:01 - BTC PAPER DOWN closed | entry 0.39 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -117.0000 | held_to_resolution
+22:45:03 - BTC Session ended, waiting for the next market
+22:45:04 - BTC Waiting for market data
+22:45:06 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT030045-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT030045-45-DOWN-118695328
+22:45:25 - BTC New PAPER session (KXBTC15M-26OCT030100-00, shard 2)
+22:45:25 - BTC Requesting AI analytics with 14.58 minutes remaining
+22:45:25 - BTC Requesting DEEPSEEK analysis and credit charge
+22:46:27 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3645 | tokens in/out/reasoning=7257/8527/7165
+22:46:27 - BTC AI reason | Active 15m is 0.0063% above open with only 2.6% elapsed; 1m pressure favors continuation via consecutive green 1m closes, current 1m at its high with no upper wick, positive 1m MACD histogram, and positive short spot returns. 15m/1h bearish but constrained by 6h bullish backdrop; current cushion supports UP.
+22:46:27 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT030100-00 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+22:46:29 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.69 — placing PAPER order
+22:46:29 - BTC PAPER position confirmed | fill 0.69 | size 300 | simulated entry fees 0.0000 (current ask)
+22:46:29 - BTC Holding PAPER UP to market resolution
+23:00:00 - BTC PAPER UP held to resolution | PnL settlement pending
+23:00:01 - BTC Session ended, waiting for the next market
+23:00:03 - BTC Waiting for market data
+23:00:08 - BTC PAPER UP closed | entry 0.69 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +93.0000 | held_to_resolution
+23:00:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT030100-00 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT030100-00-UP-119646343
+23:00:29 - BTC New PAPER session (KXBTC15M-26OCT030115-15, shard 2)
+23:00:29 - BTC Requesting AI analytics with 14.52 minutes remaining
+23:00:29 - BTC Requesting DEEPSEEK analysis and credit charge
+23:01:17 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3643 | tokens in/out/reasoning=7245/6484/5110
+23:01:17 - BTC AI reason | Active 15m candle is slightly below open (84570.02 vs 84571.40) with 870s left. 15m and 1H trend scores are bearish, cross-timeframe is bearish-majority, and 1m shows lower highs after 84588 with price near the active low; this favors a close at/below open.
+23:01:18 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT030115-15 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+23:01:19 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.57 — placing PAPER order
+23:01:19 - BTC PAPER position confirmed | fill 0.57 | size 300 | simulated entry fees 0.0000 (current ask)
+23:01:19 - BTC Holding PAPER DOWN to market resolution
+23:15:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+23:15:01 - BTC Waiting for market data
+23:15:03 - BTC Session ended, waiting for the next market
+23:15:07 - BTC PAPER DOWN closed | entry 0.57 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +129.0000 | held_to_resolution
+23:15:11 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT030115-15 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT030115-15-DOWN-120536234
+23:15:25 - BTC New PAPER session (KXBTC15M-26OCT030130-30, shard 2)
+23:15:25 - BTC Requesting AI analytics with 14.60 minutes remaining
+23:15:25 - BTC Requesting DEEPSEEK analysis and credit charge
+23:16:45 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3641 | tokens in/out/reasoning=7254/11293/9303
+23:16:45 - BTC AI reason | The active 15m candle is very early and currently slightly above its open by about 0.0018%. Lower-timeframe and spot evidence is mixed, with 15m/1h bearish but 6h bullish and 1m/spot not decisive; balanced evidence resolves by the positive current displacement from the open.
+23:16:45 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT030130-30 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+23:16:46 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.63 — placing PAPER order
+23:16:46 - BTC PAPER position confirmed | fill 0.63 | size 300 | simulated entry fees 0.0000 (current ask)
+23:16:46 - BTC Holding PAPER UP to market resolution
+23:30:00 - BTC PAPER UP held to resolution | PnL settlement pending
+23:30:02 - BTC Session ended, waiting for the next market
+23:30:02 - BTC PAPER UP closed | entry 0.63 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +111.0000 | held_to_resolution
+23:30:03 - BTC Waiting for market data
+23:30:06 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT030130-30 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT030130-30-UP-121463015
+23:30:13 - BTC New PAPER session (KXBTC15M-26OCT030145-45, shard 2)
+23:30:13 - BTC Requesting AI analytics with 14.78 minutes remaining
+23:30:13 - BTC Requesting DEEPSEEK analysis and credit charge
+23:30:44 - BTC DEEPSEEK DeepSeek v4 Pro decision | UP | credits charged | remaining credit=3639 | tokens in/out/reasoning=7236/3971/3261
+23:30:44 - BTC AI reason | Active 15m is slightly above its open with 888s remaining; 1-minute trend is bullish (EMA8>21>55, positive MACD, recent bars closing at highs), 6h regime is bullish, and 1m price broke prior resistance, favoring continuation.
+23:30:44 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT030145-45 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+23:30:46 - BTC DEEPSEEK DeepSeek v4 Pro chose UP | Obey_model=YES | trade side=UP | current ask 0.61 — placing PAPER order
+23:30:46 - BTC PAPER position confirmed | fill 0.61 | size 300 | simulated entry fees 0.0000 (current ask)
+23:30:46 - BTC Holding PAPER UP to market resolution
+23:45:01 - BTC PAPER UP held to resolution | PnL settlement pending
+23:45:01 - BTC Waiting for market data
+23:45:02 - BTC Session ended, waiting for the next market
+23:45:05 - MODEL OUTCOME AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT030145-45 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT030145-45-UP-122302375
+23:45:06 - BTC PAPER UP closed | entry 0.61 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +117.0000 | held_to_resolution
+23:45:08 - BTC New PAPER session (KXBTC15M-26OCT030200-00, shard 2)
+23:45:08 - BTC Requesting AI analytics with 14.87 minutes remaining
+23:45:08 - BTC Requesting DEEPSEEK analysis and credit charge
+23:47:10 - RETRY 1: Model call failed | errorCode=NSAI-R003
+23:48:42 - BTC DEEPSEEK DeepSeek v4 Pro decision | DOWN | credits charged | remaining credit=3637 | tokens in/out/reasoning=7250/10429/8639
+23:48:42 - BTC AI reason | The active 15m candle is currently 84625.29 vs open 84625.48. Short-term evidence is mixed but 1H is bearish (close below EMAs, MACD histogram -58.66, RSI 44.13), and 1M momentum is fading near 84629.27 resistance with the active tick down; this favors a close not strictly above open.
+23:48:42 - MODEL PREDICTION AUDIT | provider=DEEPSEEK | model=deepseek/deepseek-v4-pro-0813 | asset=BTC | market=KXBTC15M-26OCT030200-00 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+23:48:44 - BTC DEEPSEEK DeepSeek v4 Pro chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.34 — placing PAPER order
+23:48:44 - BTC PAPER position confirmed | fill 0.34 | size 300 | simulated entry fees 0.0000 (current ask)
+23:48:44 - BTC Holding PAPER DOWN to market resolution
+00:00:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+00:00:03 - BTC Session ended, waiting for the next market
+00:00:04 - BTC Waiting for market data
+00:00:12 - BTC PAPER DOWN closed | entry 0.34 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +198.0000 | held_to_resolution
+00:00:12 - Agent daily PnL limit reached | Max_daily_profit=+1200.0000 | agent PnL=+1250.7000 | no active positions | stopping script
